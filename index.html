@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>每日健康记录</title>
+<style>
+  :root{
+    --bg:#f6f7f9;
+    --card:#ffffff;
+    --text:#17191c;
+    --muted:#7a8088;
+    --line:#e8eaee;
+    --accent:#111827;
+    --soft:#f0f2f5;
+    --sleep:#6c63ff;
+    --diet:#1f9d67;
+    --exercise:#ef8f3c;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+    background:var(--bg);
+    color:var(--text);
+  }
+  .app{max-width:980px;margin:0 auto;padding:28px 20px 56px}
+  header{display:flex;justify-content:space-between;gap:20px;align-items:flex-end;margin-bottom:22px}
+  .title h1{margin:0;font-size:30px;letter-spacing:-.5px}
+  .title p{margin:6px 0 0;color:var(--muted);font-size:14px}
+  .date-pill{background:#fff;border:1px solid var(--line);padding:10px 14px;border-radius:999px;font-size:14px}
+  .tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:22px}
+  .tab{
+    border:none;background:#e9ebef;color:#59606a;padding:10px 16px;border-radius:12px;
+    cursor:pointer;font-size:14px;font-weight:600
+  }
+  .tab.active{background:#17191c;color:white}
+  .page{display:none}
+  .page.active{display:block}
+  .grid{display:grid;grid-template-columns:repeat(12,1fr);gap:16px}
+  .card{
+    background:var(--card);border:1px solid var(--line);border-radius:20px;padding:20px;
+    box-shadow:0 2px 10px rgba(17,24,39,.03)
+  }
+  .span-12{grid-column:span 12}.span-8{grid-column:span 8}.span-6{grid-column:span 6}.span-4{grid-column:span 4}
+  .kicker{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin-bottom:8px}
+  .metric{font-size:34px;font-weight:750;letter-spacing:-1px}
+  .metric small{font-size:15px;color:var(--muted);font-weight:500}
+  .label{font-size:14px;color:var(--muted);margin-top:6px}
+  .section-title{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px}
+  .section-title h2{margin:0;font-size:18px}
+  .badge{font-size:12px;padding:6px 10px;border-radius:999px;background:var(--soft);color:#5f6670}
+  .sleep-dot,.diet-dot,.exercise-dot{width:10px;height:10px;border-radius:50%;display:inline-block;margin-right:7px}
+  .sleep-dot{background:var(--sleep)} .diet-dot{background:var(--diet)} .exercise-dot{background:var(--exercise)}
+  .bar{height:10px;background:#eceef2;border-radius:999px;overflow:hidden;margin:8px 0 4px}
+  .bar > span{display:block;height:100%;border-radius:999px}
+  table{width:100%;border-collapse:collapse}
+  th,td{padding:12px 8px;border-bottom:1px solid var(--line);text-align:left;font-size:14px}
+  th{color:var(--muted);font-weight:600}
+  td:last-child,th:last-child{text-align:right}
+  .empty{padding:28px;text-align:center;color:var(--muted);background:#fafbfc;border:1px dashed #d9dde3;border-radius:16px}
+  .timeline{display:flex;align-items:center;gap:8px;margin-top:16px}
+  .timeline .seg{height:14px;border-radius:999px}
+  .legend{display:flex;gap:16px;flex-wrap:wrap;margin-top:12px;font-size:13px;color:#666d76}
+  .note{font-size:13px;line-height:1.7;color:#686f78}
+  footer{margin-top:28px;color:#9aa0a8;font-size:12px;text-align:center}
+
+  .trend-wrap{margin-top:8px}
+  #healthTrend{width:100%;height:auto;display:block;overflow:visible}
+  .trend-legend{display:flex;gap:18px;flex-wrap:wrap;margin:10px 0 8px;font-size:13px;color:#666d76}
+  .legend-line{display:inline-block;width:22px;height:3px;border-radius:999px;vertical-align:middle;margin-right:7px}
+  .legend-line.intake{background:#1f9d67}
+  .legend-line.burn{background:#ef8f3c}
+  .legend-line.sleep{background:#6c63ff}
+  .coach-list{display:grid;gap:14px}
+  .coach-item{padding:14px 0;border-bottom:1px solid var(--line)}
+  .coach-item:last-child{border-bottom:none;padding-bottom:0}
+  .coach-title{font-weight:700;margin-bottom:5px}
+  .completeness{display:grid;gap:12px}
+  .completeness div{display:flex;justify-content:space-between;align-items:center;padding-bottom:10px;border-bottom:1px solid var(--line)}
+  .completeness div:last-child{border-bottom:none}
+  .completeness span{color:var(--muted);font-size:14px}
+  .completeness strong{font-size:14px}
+  .insight-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+  .insight{padding:14px;border-radius:14px;background:#fafbfc;border:1px solid var(--line)}
+  .insight strong{display:block;font-size:14px;margin-bottom:5px}
+  .insight span{font-size:13px;line-height:1.65;color:#686f78}
+
+  @media(max-width:760px){
+    .app{padding:20px 14px 40px}
+    header{align-items:flex-start;flex-direction:column}
+    .span-8,.span-6,.span-4{grid-column:span 12}
+    .metric{font-size:30px}
+    .insight-grid{grid-template-columns:1fr}
+  }
+</style>
+</head>
+<body>
+<div class="app">
+  <header>
+    <div class="title">
+      <h1>每日健康记录</h1>
+      <p>饮食 · 睡眠 · 运动的连续追踪</p>
+    </div>
+    <div class="date-pill">2026 年 8 月 18 日</div>
+  </header>
+
+  <nav class="tabs">
+    <button class="tab active" data-target="overview">综合</button>
+    <button class="tab" data-target="diet">饮食</button>
+    <button class="tab" data-target="sleep">睡眠</button>
+    <button class="tab" data-target="exercise">运动</button>
+  </nav>
+
+  <section id="overview" class="page active">
+    <div class="grid">
+      <div class="card span-12">
+        <div class="section-title">
+          <div>
+            <h2>综合趋势</h2>
+            <div class="label">横轴为日期；热量使用左轴（kcal），睡眠使用右轴（小时）</div>
+          </div>
+          <span class="badge">持续更新</span>
+        </div>
+
+        <div class="trend-wrap">
+          <svg id="healthTrend" viewBox="0 0 900 360" role="img" aria-label="每日摄入热量、运动消耗和睡眠时长趋势图"></svg>
+          <div class="trend-legend">
+            <span><i class="legend-line intake"></i>摄入 kcal</span>
+            <span><i class="legend-line burn"></i>运动消耗 kcal</span>
+            <span><i class="legend-line sleep"></i>睡眠 h</span>
+          </div>
+          <div class="note">暂时没有记录的摄入和运动数据会留空，不会用 0 代替，避免把“没上传”误判成“没吃/没运动”。</div>
+        </div>
+      </div>
+
+      <div class="card span-4">
+        <div class="kicker">今日摄入</div>
+        <div class="metric">— <small>kcal</small></div>
+        <div class="label">等待饮食记录</div>
+      </div>
+      <div class="card span-4">
+        <div class="kicker">今日运动消耗</div>
+        <div class="metric">— <small>kcal</small></div>
+        <div class="label">等待运动记录</div>
+      </div>
+      <div class="card span-4">
+        <div class="kicker">昨晚睡眠</div>
+        <div class="metric">8<small>h</small> 04<small>m</small></div>
+        <div class="label">睡眠效率 94%</div>
+      </div>
+
+      <div class="card span-8">
+        <div class="section-title">
+          <h2>健康师观察</h2>
+          <span class="badge">基于现有记录</span>
+        </div>
+        <div class="coach-list">
+          <div class="coach-item">
+            <div class="coach-title">睡眠恢复：良好</div>
+            <div class="note">昨晚实际睡眠 8 小时 04 分、效率 94%，深睡与 REM 占比都处在设备参考范围内。单晚数据表现不错，后续更关注连续趋势。</div>
+          </div>
+          <div class="coach-item">
+            <div class="coach-title">入睡速度：继续观察</div>
+            <div class="note">入睡耗时 28 分钟。单次不需要紧张；如果连续多天都超过约 20–30 分钟，我会结合晚餐时间、咖啡因、运动和睡前状态一起判断。</div>
+          </div>
+          <div class="coach-item">
+            <div class="coach-title">能量平衡：数据不足</div>
+            <div class="note">今天还没有饮食和运动记录，所以暂时不判断热量盈余/缺口。等数据补齐后，这里会给出“摄入－活动消耗”的日趋势，而不是把缺失值当作零。</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card span-4">
+        <div class="section-title"><h2>今日完整度</h2></div>
+        <div class="completeness">
+          <div><span>睡眠</span><strong>已记录</strong></div>
+          <div><span>饮食</span><strong>待记录</strong></div>
+          <div><span>运动</span><strong>待记录</strong></div>
+        </div>
+      </div>
+
+      <div class="card span-12">
+        <div class="section-title"><h2>我会持续关注的关系</h2></div>
+        <div class="insight-grid">
+          <div class="insight"><strong>摄入 ↔ 睡眠</strong><span>晚餐过晚、咖啡因、饮酒和总摄入是否影响入睡与睡眠效率。</span></div>
+          <div class="insight"><strong>运动 ↔ 睡眠</strong><span>运动量和运动时间是否改善深睡、睡眠效率与第二天恢复感。</span></div>
+          <div class="insight"><strong>摄入 ↔ 消耗</strong><span>连续几天的能量盈余/缺口，而不是单日“吃多了还是吃少了”。</span></div>
+          <div class="insight"><strong>主观感受 ↔ 设备数据</strong><span>如果你告诉我“今天很困/精神很好”，我会和手环数据一起看，避免只相信设备。</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="diet" class="page">
+    <div class="grid">
+      <div class="card span-12">
+        <div class="section-title">
+          <h2><span class="diet-dot"></span>饮食记录</h2>
+          <span class="badge">2026-08-18</span>
+        </div>
+        <div class="empty">今天还没有饮食记录。之后每次发给我的食物、饮品、时间和份量都会追加在这里。</div>
+      </div>
+      <div class="card span-12">
+        <div class="section-title"><h2>营养汇总</h2></div>
+        <table>
+          <tr><th>指标</th><th>今日摄入</th></tr>
+          <tr><td>总热量</td><td>— kcal</td></tr>
+          <tr><td>蛋白质</td><td>— g</td></tr>
+          <tr><td>碳水化合物</td><td>— g</td></tr>
+          <tr><td>脂肪</td><td>— g</td></tr>
+          <tr><td>膳食纤维</td><td>— g</td></tr>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section id="sleep" class="page">
+    <div class="grid">
+      <div class="card span-4">
+        <div class="kicker">实际睡眠</div>
+        <div class="metric">8<small>h</small> 04<small>m</small></div>
+        <div class="label">卧床 8h32m</div>
+      </div>
+      <div class="card span-4">
+        <div class="kicker">睡眠效率</div>
+        <div class="metric">94<small>%</small></div>
+        <div class="label">设备参考范围 85–100%</div>
+      </div>
+      <div class="card span-4">
+        <div class="kicker">入睡耗时</div>
+        <div class="metric">28<small> 分钟</small></div>
+        <div class="label">00:32 入睡</div>
+      </div>
+
+      <div class="card span-12">
+        <div class="section-title"><h2>睡眠阶段</h2><span class="badge">8 月 18 日</span></div>
+        <table>
+          <tr><th>阶段</th><th>时长</th><th>占比</th></tr>
+          <tr><td>深睡</td><td>2 小时 36 分</td><td>32%</td></tr>
+          <tr><td>浅睡</td><td>3 小时 27 分</td><td>43%</td></tr>
+          <tr><td>REM</td><td>2 小时 01 分</td><td>25%</td></tr>
+        </table>
+      </div>
+
+      <div class="card span-6">
+        <div class="section-title"><h2>生理指标</h2></div>
+        <table>
+          <tr><td>平均心率</td><td>58 BPM</td></tr>
+          <tr><td>平均呼吸频率</td><td>16 次/分</td></tr>
+        </table>
+      </div>
+
+      <div class="card span-6">
+        <div class="section-title"><h2>备注</h2></div>
+        <p class="note">本页以设备记录为基础。睡眠阶段属于可穿戴设备算法估算，更适合观察连续趋势，不作为医学诊断。</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="exercise" class="page">
+    <div class="card">
+      <div class="section-title">
+        <h2><span class="exercise-dot"></span>运动记录</h2>
+        <span class="badge">2026-08-18</span>
+      </div>
+      <div class="empty">今天还没有运动记录。晚间上传运动状况后会更新在这里。</div>
+    </div>
+  </section>
+
+  <footer>持续更新的个人健康记录 · 最后更新：2026-08-18 10:20</footer>
+</div>
+
+<script>
+  const tabs = document.querySelectorAll('.tab');
+  const pages = document.querySelectorAll('.page');
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      tabs.forEach(t => t.classList.remove('active'));
+      pages.forEach(p => p.classList.remove('active'));
+      tab.classList.add('active');
+      document.getElementById(tab.dataset.target).classList.add('active');
+    });
+  });
+
+  // 每日数据。缺失值必须使用 null，而不是 0。
+  const healthDailyData = [
+    { date: '8/18', intake: null, burn: null, sleep: 8 + 4/60 }
+  ];
+
+  function renderHealthTrend() {
+    const svg = document.getElementById('healthTrend');
+    if (!svg) return;
+
+    const W = 900, H = 360;
+    const m = {l:68, r:58, t:28, b:54};
+    const w = W - m.l - m.r, h = H - m.t - m.b;
+    const kcalMax = 3000;
+    const sleepMax = 12;
+    const n = healthDailyData.length;
+    const x = i => n === 1 ? m.l + w/2 : m.l + (w * i/(n-1));
+    const yKcal = v => m.t + h - (v/kcalMax)*h;
+    const ySleep = v => m.t + h - (v/sleepMax)*h;
+
+    const parts = [];
+    parts.push(`<rect x="${m.l}" y="${m.t}" width="${w}" height="${h}" rx="14" fill="#fafbfc"/>`);
+
+    for (let i=0;i<=6;i++){
+      const yy = m.t + h*i/6;
+      const kcal = Math.round(kcalMax*(1-i/6));
+      const hrs = (sleepMax*(1-i/6)).toFixed(0);
+      parts.push(`<line x1="${m.l}" y1="${yy}" x2="${m.l+w}" y2="${yy}" stroke="#e6e9ee" stroke-width="1"/>`);
+      parts.push(`<text x="${m.l-12}" y="${yy+4}" text-anchor="end" font-size="12" fill="#8a9099">${kcal}</text>`);
+      parts.push(`<text x="${m.l+w+12}" y="${yy+4}" text-anchor="start" font-size="12" fill="#8a9099">${hrs}h</text>`);
+    }
+
+    healthDailyData.forEach((d,i)=>{
+      parts.push(`<text x="${x(i)}" y="${m.t+h+28}" text-anchor="middle" font-size="12" fill="#737982">${d.date}</text>`);
+    });
+
+    function pathFor(key, yFn) {
+      let d = '', open = false;
+      healthDailyData.forEach((row,i)=>{
+        const v = row[key];
+        if (v == null){ open = false; return; }
+        const cmd = open ? 'L' : 'M';
+        d += `${cmd}${x(i)},${yFn(v)} `;
+        open = true;
+      });
+      return d.trim();
+    }
+
+    const series = [
+      {key:'intake', y:yKcal, color:'#1f9d67'},
+      {key:'burn', y:yKcal, color:'#ef8f3c'},
+      {key:'sleep', y:ySleep, color:'#6c63ff'}
+    ];
+
+    series.forEach(s=>{
+      const p = pathFor(s.key, s.y);
+      if (p) parts.push(`<path d="${p}" fill="none" stroke="${s.color}" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>`);
+      healthDailyData.forEach((row,i)=>{
+        const v = row[s.key];
+        if (v == null) return;
+        const cy = s.y(v);
+        parts.push(`<circle cx="${x(i)}" cy="${cy}" r="5" fill="${s.color}" stroke="white" stroke-width="2"/>`);
+        const label = s.key === 'sleep' ? `${v.toFixed(1)}h` : `${Math.round(v)}`;
+        parts.push(`<text x="${x(i)}" y="${cy-12}" text-anchor="middle" font-size="12" font-weight="700" fill="${s.color}">${label}</text>`);
+      });
+    });
+
+    parts.push(`<text x="${m.l}" y="16" font-size="12" fill="#8a9099">kcal</text>`);
+    parts.push(`<text x="${m.l+w}" y="16" text-anchor="end" font-size="12" fill="#8a9099">睡眠时长</text>`);
+    svg.innerHTML = parts.join('');
+  }
+
+  renderHealthTrend();
+</script>
+</body>
+</html>
