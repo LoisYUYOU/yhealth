@@ -1,7 +1,7 @@
 {
   "date": "2026-08-19",
   "intake": {"kcal_min": 2446, "kcal_max": 2446, "kcal_mid": 2446, "as_of":"21:44"},
-  "activity": {"dynamic_kcal": null, "steps": null, "active_minutes": null, "stand_hours": null},
+  "activity": {"dynamic_kcal": 741, "steps": 6582, "active_minutes": 45, "stand_hours": 12, "as_of":"22:50"},
   "sleep": {
     "duration_minutes": 401,
     "start": "01:35",
@@ -34,7 +34,32 @@
   "body": {
     "bowel_movements": [
       {"time":"10:24","description":"排便1次，量约一圈大小，絮状、不成型，红色；前一晚大量食用西瓜，暂观察是否为食物染色"}
-    ]
+    ],
+    "composition": {
+      "measurement_date":"2026-08-10",
+      "weight_kg":68.7,
+      "height_cm":158,
+      "bmi":27.5,
+      "body_fat_percent":36.0,
+      "fat_mass_kg":24.7,
+      "muscle_mass_kg":41.5,
+      "muscle_percent":60.4,
+      "skeletal_muscle_mass_kg":24.1,
+      "skeletal_muscle_index":7.4,
+      "protein_mass_kg":8.3,
+      "protein_percent":12.1,
+      "body_water_mass_kg":32.6,
+      "body_water_percent":47.5,
+      "bone_mineral_mass_kg":2.5,
+      "bone_mineral_percent":3.6,
+      "visceral_fat_rating":11.0,
+      "waist_to_hip_ratio":0.8,
+      "basal_metabolic_rate_kcal":1320,
+      "fat_free_body_weight_kg":44.0,
+      "body_age":21,
+      "body_score":77,
+      "source":"Mi Fitness body composition report; measurement time 2026-08-10"
+    }
   },
   "coach_notes": [
     "睡眠效率高，但总时长偏短。",
