@@ -1,0 +1,38 @@
+{
+  "date": "2026-08-18",
+  "intake": {"kcal_min": 2180, "kcal_max": 2420, "kcal_mid": 2300},
+  "activity": {"dynamic_kcal": 774, "steps": 6077, "active_minutes": 32, "stand_hours": 13},
+  "sleep": {
+    "duration_minutes": 484,
+    "start": "00:32",
+    "end": "08:36",
+    "efficiency_percent": 94,
+    "stages": [
+      {"name":"深睡","minutes":156,"percent":32},
+      {"name":"浅睡","minutes":207,"percent":43},
+      {"name":"REM","minutes":121,"percent":25}
+    ]
+  },
+  "diet": [
+    {"time":"10:00","name":"黑咖啡 + 无油面饼30g","kcal_text":"≈87 kcal"},
+    {"time":"13:28","name":"午餐：松板肉170g + 米饭 + 山药 + 卷心菜 + 橄榄油 + 水煮蛋1个","kcal_text":"≈921 kcal"},
+    {"time":"16:42","name":"水煮鸡蛋1个","kcal_text":"≈73 kcal"},
+    {"time":"18:37","name":"全脂纯牛奶200mL","kcal_text":"≈140 kcal"},
+    {"time":"22:34","name":"西瓜半个，基本吃完","kcal_text":"≈360–450 kcal"},
+    {"time":"22:35","name":"鸡肉餐：带皮鸡肉 + 香肠1根 + 炸翅根1个 + 番茄酱","kcal_text":"≈600–750 kcal"}
+  ],
+  "exercise": [
+    {"type":"Zumba","time":"12:24","duration":"39分28秒","active_kcal":198,"total_kcal":256,"avg_hr":125,"max_hr":155}
+  ],
+  "body": {
+    "bowel_movements": [
+      {"time":"11:27","description":"排便1次，量约一根香蕉"},
+      {"time":"19:06","description":"腹泻1次"},
+      {"time":"20:37","description":"再次腹泻1次"}
+    ]
+  },
+  "coach_notes": [
+    "晚间出现2次腹泻。",
+    "晚间西瓜和鸡肉餐均为照片估算。"
+  ]
+}
