@@ -1,0 +1,13 @@
+{
+  "available_dates": ["2026-08-18", "2026-08-19"],
+  "menstrual_cycles": [
+    {"start":"2026-08-14","end":"2026-08-18"}
+  ],
+  "recording_rules": {
+    "default_time_source":"message_time",
+    "prefer_explicit_time":true,
+    "keep_estimates_marked":true,
+    "activity_summary_uses_daily_dynamic_kcal":true,
+    "exercise_kcal_is_detail_only":true
+  }
+}
