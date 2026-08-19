@@ -1,0 +1,40 @@
+{
+  "date": "2026-08-19",
+  "intake": {"kcal_min": 1376, "kcal_max": 1376, "kcal_mid": 1376, "as_of":"14:31"},
+  "activity": {"dynamic_kcal": null, "steps": null, "active_minutes": null, "stand_hours": null},
+  "sleep": {
+    "duration_minutes": 401,
+    "start": "01:35",
+    "end": "08:16",
+    "efficiency_percent": 97,
+    "bed_minutes": 411,
+    "sleep_onset_minutes": 10,
+    "avg_hr": 62,
+    "avg_respiration": 17,
+    "stages": [
+      {"name":"深睡","minutes":133,"percent":33},
+      {"name":"浅睡","minutes":167,"percent":42},
+      {"name":"REM","minutes":101,"percent":25}
+    ]
+  },
+  "diet": [
+    {"time":"09:30","name":"白馒头130g","kcal_text":"≈393 kcal","meta":"包装1265kJ/100g"},
+    {"time":"09:30","name":"黑咖啡1杯","kcal_text":"≈3 kcal","meta":"未加糖奶"},
+    {"time":"14:31","name":"白馒头1个（约130g）","kcal_text":"≈393 kcal"},
+    {"time":"14:31","name":"洋葱1个","kcal_text":"≈40 kcal","meta":"按中等大小估算"},
+    {"time":"14:31","name":"泰式松板肉1块（暂按170g）","kcal_text":"≈547 kcal","meta":"按昨日同款份量估算"}
+  ],
+  "exercise": [
+    {"type":"Zumba","time":"12:27","duration":"41分31秒","active_kcal":208,"total_kcal":270,"avg_hr":135,"max_hr":166,"training_effect_aerobic":2.8,"training_effect_anaerobic":0.3,"training_load":43,"recovery_hours":18}
+  ],
+  "body": {
+    "bowel_movements": [
+      {"time":"10:24","description":"排便1次，量约一圈大小，絮状、不成型，红色；前一晚大量食用西瓜，暂观察是否为食物染色"}
+    ]
+  },
+  "coach_notes": [
+    "睡眠效率高，但总时长偏短。",
+    "今天Zumba强度高于昨天。",
+    "继续观察红色不成型便；若反复出现或确认有血，应及时就医。"
+  ]
+}
