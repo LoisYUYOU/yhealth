@@ -1,6 +1,6 @@
 {
   "date": "2026-08-19",
-  "intake": {"kcal_min": 1376, "kcal_max": 1376, "kcal_mid": 1376, "as_of":"14:31"},
+  "intake": {"kcal_min": 1926, "kcal_max": 1926, "kcal_mid": 1926, "as_of":"21:44"},
   "activity": {"dynamic_kcal": null, "steps": null, "active_minutes": null, "stand_hours": null},
   "sleep": {
     "duration_minutes": 401,
@@ -22,7 +22,8 @@
     {"time":"09:30","name":"黑咖啡1杯","kcal_text":"≈3 kcal","meta":"未加糖奶"},
     {"time":"14:31","name":"白馒头1个（约130g）","kcal_text":"≈393 kcal"},
     {"time":"14:31","name":"洋葱1个","kcal_text":"≈40 kcal","meta":"按中等大小估算"},
-    {"time":"14:31","name":"泰式松板肉1块（暂按170g）","kcal_text":"≈547 kcal","meta":"按昨日同款份量估算"}
+    {"time":"14:31","name":"泰式松板肉1块（暂按170g）","kcal_text":"≈547 kcal","meta":"按昨日同款份量估算"},
+    {"time":"21:44","name":"川味鸡丝凉面1份（370g）","kcal_text":"≈550 kcal","meta":"包装标示622kJ/100g；按整份370g计算，含凉面、复合调味料、辣椒油等"}
   ],
   "exercise": [
     {"type":"Zumba","time":"12:27","duration":"41分31秒","active_kcal":208,"total_kcal":270,"avg_hr":135,"max_hr":166,"training_effect_aerobic":2.8,"training_effect_anaerobic":0.3,"training_load":43,"recovery_hours":18}
