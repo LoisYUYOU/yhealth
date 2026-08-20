@@ -1,35 +1,21 @@
 {
   "date": "2026-08-20",
-  "intake": {
-    "kcal_min": 1796,
-    "kcal_max": 1796,
-    "kcal_mid": 1796,
-    "as_of": "20:46",
-    "notes": "当前总热量约1796 kcal，已计入整盒吃完的西瓜（起始连盒469.5g，估算约135 kcal）。米布丁净含量未清楚拍到，暂按常见150g杯估算约180 kcal。"
-  },
-  "activity": {
-    "dynamic_kcal": null,
-    "steps": null,
-    "active_minutes": null,
-    "stand_hours": null,
-    "as_of": null
-  },
+  "intake": {"kcal_min":1796,"kcal_max":1796,"kcal_mid":1796,"as_of":"20:46","notes":"当前总热量约1796 kcal，已计入整盒吃完的西瓜（起始连盒469.5g，估算约135 kcal）。米布丁净含量未清楚拍到，暂按常见150g杯估算约180 kcal。"},
+  "activity": {"dynamic_kcal":null,"steps":null,"active_minutes":null,"stand_hours":null,"as_of":null},
   "sleep": {
-    "duration_minutes": 414,
-    "start": "03:37",
-    "end": "10:33",
-    "efficiency_percent": 97,
-    "bed_minutes": 426,
-    "sleep_onset_minutes": 10,
-    "avg_hr": 61,
-    "avg_respiration": 16,
-    "stages": [
-      {"stage":"REM","percent":27,"minutes":112},
-      {"stage":"Light","percent":39,"minutes":162},
-      {"stage":"Deep","percent":34,"minutes":140},
-      {"stage":"Wake-ups","count":2,"minutes":2}
-    ],
-    "notes": "小米睡眠截图：03:27上床，03:37入睡，10:33醒来；总睡眠6小时54分，上床7小时6分，入睡耗时10分钟。"
+    "duration_minutes":414,
+    "start":"03:37",
+    "end":"10:33",
+    "efficiency_percent":97,
+    "bed_minutes":426,
+    "sleep_onset_minutes":10,
+    "avg_hr":61,
+    "avg_respiration":16,
+    "stages":[
+      {"name":"深睡","minutes":140,"percent":34},
+      {"name":"浅睡","minutes":162,"percent":39},
+      {"name":"REM","minutes":112,"percent":27}
+    ]
   },
   "diet": [
     {"time":"14:42","name":"白馒头2个（约260g）","kcal_text":"≈786 kcal","meta":"用户确认130g/个；沿用包装1265kJ/100g，2个共260g计算"},
@@ -42,20 +28,7 @@
     {"time":"20:45","name":"炒白菜1份","kcal_text":"≈55 kcal","meta":"约401.5g白菜整锅，含蒜、蚝油、盐和炒菜油；按今晚实际分量估算"}
   ],
   "exercise": [],
-  "body": {
-    "bowel_movements": [
-      {"time":"recorded_time","description":"腹泻/稀便（窜稀），便不成型，气味明显类似洋葱；结合前一日食用洋葱记录，备注观察饮食相关性"}
-    ],
-    "composition": null
-  },
-  "coach_notes": ["观察肠胃反应。"],
-  "meal_prep": {
-    "2026-08-21_lunch": {
-      "rice_g": 217,
-      "tomato_egg_g": 213,
-      "cabbage_g": 155,
-      "net_food_g": 585,
-      "notes": "已分装，计划作为8月21日午餐；未计入8月20日摄入"
-    }
-  }
+  "body": {"bowel_movements":[{"time":"recorded_time","description":"腹泻/稀便（窜稀），便不成型，气味明显类似洋葱；结合前一日食用洋葱记录，备注观察饮食相关性"}],"composition":null},
+  "coach_notes":["观察肠胃反应。"],
+  "meal_prep":{"2026-08-21_lunch":{"rice_g":217,"tomato_egg_g":213,"cabbage_g":155,"net_food_g":585,"notes":"已分装，计划作为8月21日午餐；未计入8月20日摄入"}}
 }
