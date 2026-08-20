@@ -16,15 +16,20 @@
   },
   "sleep": {
     "duration_minutes": 414,
-    "start": null,
-    "end": null,
+    "start": "03:37",
+    "end": "10:33",
     "efficiency_percent": 97,
-    "bed_minutes": null,
-    "sleep_onset_minutes": null,
-    "avg_hr": null,
-    "avg_respiration": null,
-    "stages": [],
-    "notes": "睡眠记录来自用户截图"
+    "bed_minutes": 426,
+    "sleep_onset_minutes": 10,
+    "avg_hr": 61,
+    "avg_respiration": 16,
+    "stages": [
+      {"stage":"REM","percent":27,"minutes":112},
+      {"stage":"Light","percent":39,"minutes":162},
+      {"stage":"Deep","percent":34,"minutes":140},
+      {"stage":"Wake-ups","count":2,"minutes":2}
+    ],
+    "notes": "小米睡眠截图：03:27上床，03:37入睡，10:33醒来；总睡眠6小时54分，上床7小时6分，入睡耗时10分钟。"
   },
   "diet": [
     {"time":"14:42","name":"白馒头2个（约260g）","kcal_text":"≈786 kcal","meta":"用户确认130g/个；沿用包装1265kJ/100g，2个共260g计算"},
