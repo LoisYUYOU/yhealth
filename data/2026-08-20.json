@@ -1,0 +1,20 @@
+{
+  "date": "2026-08-20",
+  "body": {
+    "bowel_movements": [
+      {
+        "time": "recorded_time",
+        "description": "腹泻/稀便（窜稀），便不成型，气味明显类似洋葱；结合前一日食用洋葱记录，备注观察饮食相关性"
+      }
+    ]
+  },
+  "sleep": {
+    "duration_minutes": 414,
+    "efficiency_percent": 97,
+    "notes": "睡眠记录来自用户截图"
+  },
+  "health_notes": [
+    "观察肠胃反应",
+    "昨日摄入洋葱、辛辣凉面、乳制品等，作为可能相关饮食因素记录"
+  ]
+}
