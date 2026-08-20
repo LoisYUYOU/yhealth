@@ -1,73 +1,49 @@
 {
   "date": "2026-08-20",
-  "body": {
-    "bowel_movements": [
-      {
-        "time": "recorded_time",
-        "description": "腹泻/稀便（窜稀），便不成型，气味明显类似洋葱；结合前一日食用洋葱记录，备注观察饮食相关性"
-      }
-    ]
-  },
-  "sleep": {
-    "duration_minutes": 414,
-    "efficiency_percent": 97,
-    "notes": "睡眠记录来自用户截图"
-  },
-  "diet": [
-    {
-      "time": "14:42",
-      "name": "白馒头2个（约260g）",
-      "kcal_text": "≈786 kcal",
-      "meta": "用户确认130g/个；沿用包装1265kJ/100g，2个共260g计算"
-    },
-    {
-      "time": "14:42",
-      "name": "生菜1颗",
-      "kcal_text": "≈20 kcal",
-      "meta": "按常规小颗生菜估算"
-    },
-    {
-      "time": "20:00",
-      "name": "烤鸡腿1个",
-      "kcal_text": "≈205 kcal",
-      "meta": "购买时连包装称约137g；按带骨可食部分估算"
-    },
-    {
-      "time": "20:15",
-      "name": "米布丁1杯",
-      "kcal_text": "≈180 kcal",
-      "meta": "营养表500kJ/100g≈120kcal/100g；净含量未清楚拍到，暂按常见约150g杯估算"
-    },
-    {
-      "time": "20:30",
-      "name": "西瓜约469.5g（连盒称重）",
-      "kcal_text": "≈135 kcal",
-      "meta": "用户确认整盒西瓜已吃完；起始连盒重量469.5g，因包含包装盒，实际果肉略低于469.5g。按西瓜约30kcal/100g并考虑盒重，估算约135 kcal。"
-    },
-    {
-      "time": "20:45",
-      "name": "熟米饭180g",
-      "kcal_text": "≈210 kcal",
-      "meta": "按熟白米饭约116kcal/100g估算"
-    },
-    {
-      "time": "20:45",
-      "name": "番茄炒蛋205g",
-      "kcal_text": "≈205 kcal",
-      "meta": "由312g番茄+3个鸡蛋制作，含炒菜油；按实际分装205g估算"
-    },
-    {
-      "time": "20:45",
-      "name": "炒白菜1份",
-      "kcal_text": "≈55 kcal",
-      "meta": "约401.5g白菜整锅，含蒜、蚝油、盐和炒菜油；按今晚实际分量估算"
-    }
-  ],
   "intake": {
+    "kcal_min": 1796,
+    "kcal_max": 1796,
     "kcal_mid": 1796,
     "as_of": "20:46",
     "notes": "当前总热量约1796 kcal，已计入整盒吃完的西瓜（起始连盒469.5g，估算约135 kcal）。米布丁净含量未清楚拍到，暂按常见150g杯估算约180 kcal。"
   },
+  "activity": {
+    "dynamic_kcal": null,
+    "steps": null,
+    "active_minutes": null,
+    "stand_hours": null,
+    "as_of": null
+  },
+  "sleep": {
+    "duration_minutes": 414,
+    "start": null,
+    "end": null,
+    "efficiency_percent": 97,
+    "bed_minutes": null,
+    "sleep_onset_minutes": null,
+    "avg_hr": null,
+    "avg_respiration": null,
+    "stages": [],
+    "notes": "睡眠记录来自用户截图"
+  },
+  "diet": [
+    {"time":"14:42","name":"白馒头2个（约260g）","kcal_text":"≈786 kcal","meta":"用户确认130g/个；沿用包装1265kJ/100g，2个共260g计算"},
+    {"time":"14:42","name":"生菜1颗","kcal_text":"≈20 kcal","meta":"按常规小颗生菜估算"},
+    {"time":"20:00","name":"烤鸡腿1个","kcal_text":"≈205 kcal","meta":"购买时连包装称约137g；按带骨可食部分估算"},
+    {"time":"20:15","name":"米布丁1杯","kcal_text":"≈180 kcal","meta":"营养表500kJ/100g≈120kcal/100g；净含量未清楚拍到，暂按常见约150g杯估算"},
+    {"time":"20:30","name":"西瓜约469.5g（连盒称重）","kcal_text":"≈135 kcal","meta":"用户确认整盒西瓜已吃完；起始连盒重量469.5g，因包含包装盒，实际果肉略低于469.5g。按西瓜约30kcal/100g并考虑盒重，估算约135 kcal。"},
+    {"time":"20:45","name":"熟米饭180g","kcal_text":"≈210 kcal","meta":"按熟白米饭约116kcal/100g估算"},
+    {"time":"20:45","name":"番茄炒蛋205g","kcal_text":"≈205 kcal","meta":"由312g番茄+3个鸡蛋制作，含炒菜油；按实际分装205g估算"},
+    {"time":"20:45","name":"炒白菜1份","kcal_text":"≈55 kcal","meta":"约401.5g白菜整锅，含蒜、蚝油、盐和炒菜油；按今晚实际分量估算"}
+  ],
+  "exercise": [],
+  "body": {
+    "bowel_movements": [
+      {"time":"recorded_time","description":"腹泻/稀便（窜稀），便不成型，气味明显类似洋葱；结合前一日食用洋葱记录，备注观察饮食相关性"}
+    ],
+    "composition": null
+  },
+  "coach_notes": ["观察肠胃反应。"],
   "meal_prep": {
     "2026-08-21_lunch": {
       "rice_g": 217,
@@ -76,9 +52,5 @@
       "net_food_g": 585,
       "notes": "已分装，计划作为8月21日午餐；未计入8月20日摄入"
     }
-  },
-  "health_notes": [
-    "观察肠胃反应",
-    "昨日摄入洋葱、辛辣凉面、乳制品等，作为可能相关饮食因素记录"
-  ]
+  }
 }
