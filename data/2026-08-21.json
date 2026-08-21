@@ -1,6 +1,6 @@
 {
   "date": "2026-08-21",
-  "intake": {"kcal_min":0,"kcal_max":0,"kcal_mid":0,"as_of":"12:12"},
+  "intake": {"kcal_min":0,"kcal_max":5,"kcal_mid":2,"as_of":"12:12"},
   "activity": {"dynamic_kcal":null,"steps":null,"active_minutes":null,"stand_hours":null,"as_of":null},
   "sleep": {
     "duration_minutes":293,
@@ -17,9 +17,11 @@
       {"name":"REM","minutes":67,"percent":23}
     ]
   },
-  "diet": [],
+  "diet": [
+    {"time":"morning","item":"黑咖啡","amount":"1杯","kcal_min":0,"kcal_max":5,"kcal_mid":2,"notes":"未报告添加糖、奶或其他配料，按纯黑咖啡记录。"}
+  ],
   "exercise": [],
-  "body": {"bowel_movements":[],"composition":null},
+  "body": {"bowel_movements":[{"time":"12:12","status":"进行中","notes":"用户报告正在排便；性状、排便量等未记录。"}],"composition":null},
   "coach_notes":["总睡眠4小时53分，明显偏短；睡眠效率91%。"],
   "meal_prep":{"2026-08-21_lunch":{"rice_g":217,"tomato_egg_g":213,"cabbage_g":155,"net_food_g":585,"notes":"8月20日晚已分装，计划作为8月21日午餐；实际食用后再计入当日摄入。"}}
 }
