@@ -1,6 +1,6 @@
 {
   "date": "2026-08-21",
-  "intake": {"kcal_min":0,"kcal_max":5,"kcal_mid":2,"as_of":"12:12"},
+  "intake": {"kcal_min":480,"kcal_max":705,"kcal_mid":592,"as_of":"22:32"},
   "activity": {"dynamic_kcal":null,"steps":null,"active_minutes":null,"stand_hours":null,"as_of":null},
   "sleep": {
     "duration_minutes":293,
@@ -18,7 +18,9 @@
     ]
   },
   "diet": [
-    {"time":"早上","name":"黑咖啡1杯","kcal_text":"≈0–5 kcal","meta":"未报告添加糖、奶或其他配料，按纯黑咖啡记录"}
+    {"time":"早上","name":"黑咖啡1杯","kcal_text":"≈0–5 kcal","meta":"未报告添加糖、奶或其他配料，按纯黑咖啡记录"},
+    {"time":"中午","name":"茄子包1个","kcal_text":"估算≈180–250 kcal","meta":"未提供重量，按普通大小中式包子估算"},
+    {"time":"中午","name":"卤肉包1个","kcal_text":"估算≈300–450 kcal","meta":"未提供重量，肉馅及肥瘦比例未知，按普通大小卤肉包估算"}
   ],
   "exercise": [],
   "body": {
@@ -28,5 +30,5 @@
     "composition":null
   },
   "coach_notes":["总睡眠4小时53分，明显偏短；睡眠效率91%。"],
-  "meal_prep":{"2026-08-21_lunch":{"rice_g":217,"tomato_egg_g":213,"cabbage_g":155,"net_food_g":585,"notes":"8月20日晚已分装，计划作为8月21日午餐；实际食用后再计入当日摄入。"}}
+  "meal_prep":{"2026-08-21_lunch":{"rice_g":217,"tomato_egg_g":213,"cabbage_g":155,"net_food_g":585,"notes":"8月20日晚已分装，原计划作为8月21日午餐；截至当前未记录实际食用，因此未计入当日摄入。"}}
 }
