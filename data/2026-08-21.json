@@ -1,0 +1,25 @@
+{
+  "date": "2026-08-21",
+  "intake": {"kcal_min":0,"kcal_max":0,"kcal_mid":0,"as_of":"12:12"},
+  "activity": {"dynamic_kcal":null,"steps":null,"active_minutes":null,"stand_hours":null,"as_of":null},
+  "sleep": {
+    "duration_minutes":293,
+    "start":"03:13",
+    "end":"08:06",
+    "efficiency_percent":91,
+    "bed_minutes":320,
+    "sleep_onset_minutes":27,
+    "avg_hr":58,
+    "avg_respiration":16,
+    "stages":[
+      {"name":"深睡","minutes":91,"percent":31},
+      {"name":"浅睡","minutes":135,"percent":46},
+      {"name":"REM","minutes":67,"percent":23}
+    ]
+  },
+  "diet": [],
+  "exercise": [],
+  "body": {"bowel_movements":[],"composition":null},
+  "coach_notes":["总睡眠4小时53分，明显偏短；睡眠效率91%。"],
+  "meal_prep":{"2026-08-21_lunch":{"rice_g":217,"tomato_egg_g":213,"cabbage_g":155,"net_food_g":585,"notes":"8月20日晚已分装，计划作为8月21日午餐；实际食用后再计入当日摄入。"}}
+}
