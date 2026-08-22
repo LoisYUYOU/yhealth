@@ -1,34 +1,18 @@
 {
   "date": "2026-08-21",
-  "intake": {"kcal_min":480,"kcal_max":705,"kcal_mid":592,"as_of":"22:32"},
-  "activity": {"dynamic_kcal":null,"steps":null,"active_minutes":null,"stand_hours":null,"as_of":null},
-  "sleep": {
-    "duration_minutes":293,
-    "start":"03:13",
-    "end":"08:06",
-    "efficiency_percent":91,
-    "bed_minutes":320,
-    "sleep_onset_minutes":27,
-    "avg_hr":58,
-    "avg_respiration":16,
-    "stages":[
-      {"name":"深睡","minutes":91,"percent":31},
-      {"name":"浅睡","minutes":135,"percent":46},
-      {"name":"REM","minutes":67,"percent":23}
-    ]
-  },
+  "intake": {"kcal_min":1530,"kcal_max":2055,"kcal_mid":1793,"as_of":"day_total","notes":"晚餐根据用户上传照片估算：土豆牛腩盖饭约700–850 kcal、鸡腿约200–300 kcal、西瓜约150–200 kcal；晚餐合计约1050–1350 kcal。"},
+  "activity": {"dynamic_kcal":736,"steps":5106,"active_minutes":null,"stand_hours":null,"breaks":11,"breaks_goal":12,"as_of":"day_total","source":"activity screenshot"},
+  "sleep": {"duration_minutes":293,"start":"03:13","end":"08:06","efficiency_percent":91,"bed_minutes":320,"sleep_onset_minutes":27,"avg_hr":58,"avg_respiration":16,"stages":[{"name":"深睡","minutes":91,"percent":31},{"name":"浅睡","minutes":135,"percent":46},{"name":"REM","minutes":67,"percent":23}]},
   "diet": [
     {"time":"早上","name":"黑咖啡1杯","kcal_text":"≈0–5 kcal","meta":"未报告添加糖、奶或其他配料，按纯黑咖啡记录"},
     {"time":"中午","name":"茄子包1个","kcal_text":"估算≈180–250 kcal","meta":"未提供重量，按普通大小中式包子估算"},
-    {"time":"中午","name":"卤肉包1个","kcal_text":"估算≈300–450 kcal","meta":"未提供重量，肉馅及肥瘦比例未知，按普通大小卤肉包估算"}
+    {"time":"中午","name":"卤肉包1个","kcal_text":"估算≈300–450 kcal","meta":"未提供重量，肉馅及肥瘦比例未知，按普通大小卤肉包估算"},
+    {"time":"晚上","name":"土豆牛腩盖饭","kcal_text":"估算≈700–850 kcal","meta":"根据用户上传照片估算；含米饭、土豆、牛腩、青菜及酱汁"},
+    {"time":"晚上","name":"鸡腿","kcal_text":"估算≈200–300 kcal","meta":"根据用户上传照片估算"},
+    {"time":"晚上","name":"西瓜","kcal_text":"估算≈150–200 kcal","meta":"根据用户上传照片估算"}
   ],
   "exercise": [],
-  "body": {
-    "bowel_movements":[
-      {"time":"12:12","description":"排便1次，记录时仍在进行中；性状与排便量尚未补充"}
-    ],
-    "composition":null
-  },
+  "body": {"bowel_movements":[{"time":"12:12","description":"排便1次，记录时仍在进行中；性状与排便量尚未补充"}],"composition":null},
   "coach_notes":["总睡眠4小时53分，明显偏短；睡眠效率91%。"],
   "meal_prep":{"2026-08-21_lunch":{"rice_g":217,"tomato_egg_g":213,"cabbage_g":155,"net_food_g":585,"notes":"8月20日晚已分装，原计划作为8月21日午餐；截至当前未记录实际食用，因此未计入当日摄入。"}}
 }
