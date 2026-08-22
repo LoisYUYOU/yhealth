@@ -1,22 +1,8 @@
 {
   "date": "2026-08-20",
   "intake": {"kcal_min":1796,"kcal_max":1796,"kcal_mid":1796,"as_of":"20:46","notes":"当前总热量约1796 kcal，已计入整盒吃完的西瓜（起始连盒469.5g，估算约135 kcal）。米布丁净含量未清楚拍到，暂按常见150g杯估算约180 kcal。"},
-  "activity": {"dynamic_kcal":null,"steps":null,"active_minutes":null,"stand_hours":null,"as_of":null},
-  "sleep": {
-    "duration_minutes":414,
-    "start":"03:37",
-    "end":"10:33",
-    "efficiency_percent":97,
-    "bed_minutes":426,
-    "sleep_onset_minutes":10,
-    "avg_hr":61,
-    "avg_respiration":16,
-    "stages":[
-      {"name":"深睡","minutes":140,"percent":34},
-      {"name":"浅睡","minutes":162,"percent":39},
-      {"name":"REM","minutes":112,"percent":27}
-    ]
-  },
+  "activity": {"dynamic_kcal":580,"steps":2175,"active_minutes":null,"stand_hours":null,"breaks":10,"breaks_goal":12,"as_of":"day_total","source":"activity screenshot"},
+  "sleep": {"duration_minutes":414,"start":"03:37","end":"10:33","efficiency_percent":97,"bed_minutes":426,"sleep_onset_minutes":10,"avg_hr":61,"avg_respiration":16,"stages":[{"name":"深睡","minutes":140,"percent":34},{"name":"浅睡","minutes":162,"percent":39},{"name":"REM","minutes":112,"percent":27}]},
   "diet": [
     {"time":"14:42","name":"白馒头2个（约260g）","kcal_text":"≈786 kcal","meta":"用户确认130g/个；沿用包装1265kJ/100g，2个共260g计算"},
     {"time":"14:42","name":"生菜1颗","kcal_text":"≈20 kcal","meta":"按常规小颗生菜估算"},
