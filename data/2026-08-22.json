@@ -3,14 +3,9 @@
   "intake":{"kcal_min":1090,"kcal_max":1350,"kcal_mid":1220,"as_of":"15:00","notes":"截至15:00记录一餐。薯条和鸡肉条未提供重量，按常见单份估算；鸡翅根按1个估算；榴莲肉为用户报告200g。"},
   "activity":{"dynamic_kcal":433,"steps":1419,"active_minutes":null,"stand_hours":null,"breaks":9,"breaks_goal":12,"as_of":"day_total","source":"activity screenshot"},
   "sleep":{"duration_minutes":458,"start":"01:55","end":"09:47","efficiency_percent":86,"bed_minutes":null,"sleep_onset_minutes":null,"avg_hr":null,"avg_respiration":null,"stages":[{"name":"深睡","minutes":141,"percent":30},{"name":"浅睡","minutes":215,"percent":47},{"name":"REM","minutes":106,"percent":23}],"wakeups":4,"awake_minutes":19,"source":"sleep screenshot"},
-  "diet":[
-    {"time":"15:00","name":"薯条1份","kcal_text":"估算≈350–450 kcal","meta":"未提供重量/品牌，按常见单份炸薯条估算"},
-    {"time":"15:00","name":"鸡肉条1份","kcal_text":"估算≈300–400 kcal","meta":"未提供重量/数量，按常见单份裹粉炸鸡肉条估算"},
-    {"time":"15:00","name":"鸡翅根1个","kcal_text":"估算≈140–200 kcal","meta":"未提供重量及烹饪方式，暂按常见炸/烤鸡翅根估算"},
-    {"time":"15:00","name":"榴莲肉200g","kcal_text":"估算≈300 kcal","meta":"用户报告可食榴莲肉200g；按约150 kcal/100g估算"}
-  ],
+  "diet":[{"time":"15:00","name":"薯条1份","kcal_text":"估算≈350–450 kcal","meta":"未提供重量/品牌，按常见单份炸薯条估算"},{"time":"15:00","name":"鸡肉条1份","kcal_text":"估算≈300–400 kcal","meta":"未提供重量/数量，按常见单份裹粉炸鸡肉条估算"},{"time":"15:00","name":"鸡翅根1个","kcal_text":"估算≈140–200 kcal","meta":"未提供重量及烹饪方式，暂按常见炸/烤鸡翅根估算"},{"time":"15:00","name":"榴莲肉200g","kcal_text":"估算≈300 kcal","meta":"用户报告可食榴莲肉200g；按约150 kcal/100g估算"}],
   "exercise":[],
-  "body":{"bowel_movements":[],"composition":null},
+  "body":{"bowel_movements":[],"composition":{"time":"14:33","weight_kg":69.7,"body_fat_percent":37.0,"source":"body record screenshot"}},
   "coach_notes":["睡眠7小时38分，时长较前一日明显增加；睡眠效率86%，夜间清醒约19分钟、醒来4次。"],
   "meal_prep":{}
 }
