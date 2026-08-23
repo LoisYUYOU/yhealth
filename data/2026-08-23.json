@@ -1,11 +1,12 @@
 {
   "date":"2026-08-23",
-  "intake":{"kcal_min":500,"kcal_max":550,"kcal_mid":525,"as_of":"14:52","notes":"截至14:52记录番茄肉酱意面1份和煎蛋1个。意面包装标示511kJ/100g（约122kcal/100g），整包4人份、净含量约1428g，按1/4包装约357g估算约435kcal；煎蛋约70–110kcal。"},
+  "intake":{"kcal_min":680,"kcal_max":800,"kcal_mid":740,"as_of":"14:52","notes":"截至14:52记录番茄肉酱意面1份、煎蛋1个和卤鸡腿1个。意面按包装营养信息计算约435kcal；煎蛋与卤鸡腿因用油、大小及可食重量未知采用区间估算。"},
   "activity":{"dynamic_kcal":null,"steps":null,"active_minutes":null,"stand_hours":null,"as_of":null},
   "sleep":null,
   "diet":[
     {"time":"14:52","name":"Member's Mark 番茄肉酱意面1份","kcal_text":"≈435 kcal","meta":"包装营养成分：511kJ/100g≈122kcal/100g；包装标示4人份、净含量约1428g，按1/4包装约357g计算。"},
-    {"time":"14:52","name":"煎蛋1个","kcal_text":"估算≈70–110 kcal","meta":"根据照片记录；用油量未知。"}
+    {"time":"14:52","name":"煎蛋1个","kcal_text":"估算≈70–110 kcal","meta":"根据照片记录；用油量未知。"},
+    {"time":"14:52","name":"卤鸡腿1个","kcal_text":"估算≈175–255 kcal","meta":"根据照片记录，为带骨整只卤鸡腿；实际重量、带皮情况及卤汁摄入量未知。"}
   ],
   "exercise":[],
   "body":{"bowel_movements":[],"composition":{"time":"14:41","weight_kg":70.0,"body_fat_percent":null,"source":"body record screenshot"}},
