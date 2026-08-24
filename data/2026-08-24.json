@@ -1,0 +1,14 @@
+{
+  "date":"2026-08-24",
+  "intake":{"kcal_min":null,"kcal_max":null,"kcal_mid":null,"as_of":null,"notes":"尚未记录当日饮食。"},
+  "activity":{"dynamic_kcal":1014,"steps":6264,"active_minutes":34,"stand_hours":null,"breaks":12,"breaks_goal":12,"as_of":"22:30","source":"Mi Fitness daily activity screenshot"},
+  "sleep":{"duration_minutes":342,"source":"Mi Fitness health overview screenshot","notes":"首页显示睡眠5小时42分；详细睡眠阶段尚未记录。"},
+  "diet":[],
+  "exercise":[
+    {"time":"19:06","name":"Core training","duration_minutes":43.68,"active_kcal":219,"total_kcal":285,"avg_hr":96,"max_hr":119,"training_effect_aerobic":0.4,"training_load":4,"source":"Mi Fitness workout screenshot"},
+    {"time":"19:55","name":"Modern dance","duration_minutes":69.02,"active_kcal":348,"total_kcal":452,"avg_hr":115,"max_hr":155,"training_effect_aerobic":2.6,"training_effect_anaerobic":0.4,"training_load":33,"recovery_hours":16,"source":"Mi Fitness workout screenshot"}
+  ],
+  "body":{"bowel_movements":[],"composition":null},
+  "coach_notes":["当日动态消耗1014 kcal、6264步、活动打断12/12。完成核心训练43分41秒和现代舞1小时09分01秒；两项训练的active_kcal分别为219和348 kcal，均已包含在全天动态消耗中，不重复相加。"],
+  "meal_prep":{}
+}
