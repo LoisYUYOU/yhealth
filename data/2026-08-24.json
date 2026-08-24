@@ -5,7 +5,7 @@
   "sleep":{"duration_minutes":342,"efficiency_percent":96,"stages":[{"name":"REM","minutes":79,"percent":23},{"name":"浅睡","minutes":165,"percent":48},{"name":"深睡","minutes":100,"percent":29}],"wakeups":1,"awake_minutes":1,"avg_hr":62,"avg_respiration":16,"source":"Mi Fitness sleep screenshot","notes":"睡眠5小时42分；睡眠效率96%。阶段时长来自截图：REM 1小时19分、浅睡2小时45分、深睡1小时40分。"},
   "diet":[],
   "exercise":[{"time":"19:06","name":"Core training","duration_minutes":43.68,"active_kcal":219,"total_kcal":285,"avg_hr":96,"max_hr":119,"training_effect_aerobic":0.4,"training_load":4,"source":"Mi Fitness workout screenshot"},{"time":"19:55","name":"Modern dance","duration_minutes":69.02,"active_kcal":348,"total_kcal":452,"avg_hr":115,"max_hr":155,"training_effect_aerobic":2.6,"training_effect_anaerobic":0.4,"training_load":33,"recovery_hours":16,"source":"Mi Fitness workout screenshot"}],
-  "body":{"bowel_movements":[],"composition":null},
+  "body":{"bowel_movements":[],"composition":{"time":"08:58","weight_kg":70.25,"body_fat_percent":null,"source":"body record screenshot"}},
   "coach_notes":["当日动态消耗1014 kcal、6264步、活动打断12/12。完成核心训练43分41秒和现代舞1小时09分01秒；两项训练的active_kcal分别为219和348 kcal，均已包含在全天动态消耗中，不重复相加。","睡眠效率较高（96%），但总睡眠仅5小时42分，时长不足。"],
   "meal_prep":{}
 }
