@@ -1,11 +1,17 @@
 {
   "date":"2026-08-23",
-  "intake":{"kcal_min":680,"kcal_max":800,"kcal_mid":740,"as_of":"14:52","notes":"截至14:52记录番茄肉酱意面1份、煎蛋1个和卤鸡腿1个。意面按包装营养信息计算约435kcal；煎蛋与卤鸡腿因用油、大小及可食重量未知采用区间估算。"},
-  "activity":{"dynamic_kcal":null,"steps":null,"active_minutes":null,"stand_hours":null,"as_of":null},
+  "intake":{"kcal_min":1050,"kcal_max":1370,"kcal_mid":1210,"as_of":"day_total","notes":"已补全晚间甜点/水果。下午餐为番茄肉酱意面、煎蛋和卤鸡腿；晚间另有无花果巴斯克1份（含奶油/配料）和八月瓜1个。甜点及水果未提供克重，采用区间估算。"},
+  "activity":{"dynamic_kcal":290,"steps":746,"active_minutes":null,"stand_hours":6,"breaks":6,"breaks_goal":12,"as_of":"day_total","source":"Mi Fitness activity screenshot"},
   "sleep":{"duration_minutes":458,"efficiency_percent":86,"stages":[{"name":"REM","minutes":106,"percent":23},{"name":"浅睡","minutes":215,"percent":47},{"name":"深睡","minutes":137,"percent":30}],"wakeups":4,"awake_minutes":69,"avg_hr":66,"source":"Mi Fitness sleep screenshot","notes":"睡眠7小时38分；睡眠效率86%。REM 1小时46分、浅睡3小时35分、深睡2小时17分；夜间清醒4次，约1小时09分。"},
-  "diet":[{"time":"14:52","name":"Member's Mark 番茄肉酱意面1份","kcal_text":"≈435 kcal","meta":"包装营养成分：511kJ/100g≈122kcal/100g；包装标示4人份、净含量约1428g，按1/4包装约357g计算。"},{"time":"14:52","name":"煎蛋1个","kcal_text":"估算≈70–110 kcal","meta":"根据照片记录；用油量未知。"},{"time":"14:52","name":"卤鸡腿1个","kcal_text":"估算≈175–255 kcal","meta":"根据照片记录，为带骨整只卤鸡腿；实际重量、带皮情况及卤汁摄入量未知。"}],
+  "diet":[
+    {"time":"14:52","name":"Member's Mark 番茄肉酱意面1份","kcal_text":"≈435 kcal","meta":"包装营养成分：511kJ/100g≈122kcal/100g；包装标示4人份、净含量约1428g，按1/4包装约357g计算。"},
+    {"time":"14:52","name":"煎蛋1个","kcal_text":"估算≈70–110 kcal","meta":"根据照片记录；用油量未知。"},
+    {"time":"14:52","name":"卤鸡腿1个","kcal_text":"估算≈175–255 kcal","meta":"根据照片记录，为带骨整只卤鸡腿；实际重量、带皮情况及卤汁摄入量未知。"},
+    {"time":"晚上","name":"无花果巴斯克1份（含奶油/配料）","kcal_text":"估算≈320–480 kcal","meta":"根据用户照片及后续确认记录；具体重量未知，按常见一份巴斯克甜点估算。"},
+    {"time":"晚上","name":"八月瓜1个","kcal_text":"估算≈50–90 kcal","meta":"根据照片记录；按照片中可食果肉量估算。"}
+  ],
   "exercise":[],
   "body":{"bowel_movements":[],"composition":{"time":"14:41","weight_kg":70.0,"body_fat_percent":null,"source":"body record screenshot"}},
-  "coach_notes":["睡眠总时长7小时38分，但睡眠效率86%，夜间清醒4次、累计约1小时09分，连续性一般。"],
+  "coach_notes":["睡眠总时长7小时38分，但睡眠效率86%，夜间清醒4次、累计约1小时09分，连续性一般。","全天动态消耗290 kcal、746步、活动打断6/12，整体活动量较低。","全天饮食已补录至晚间；因无花果巴斯克和八月瓜缺少克重，全天摄入估算约1050–1370 kcal。"],
   "meal_prep":{}
 }
