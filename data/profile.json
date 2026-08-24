@@ -9,5 +9,6 @@
     "keep_estimates_marked":true,
     "activity_summary_uses_daily_dynamic_kcal":true,
     "exercise_kcal_is_detail_only":true
-  }
+  },
+  "pages_refresh_token":"2026-08-24T22:39+08:00"
 }
