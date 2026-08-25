@@ -1,8 +1,8 @@
 {
   "date":"2026-08-23",
   "intake":{"kcal_min":1050,"kcal_max":1370,"kcal_mid":1210,"as_of":"day_total","notes":"已补全晚间甜点/水果。下午餐为番茄肉酱意面、煎蛋和卤鸡腿；晚间另有无花果巴斯克1份（含奶油/配料）和八月瓜1个。甜点及水果未提供克重，采用区间估算。"},
-  "activity":{"dynamic_kcal":290,"steps":746,"active_minutes":null,"stand_hours":6,"breaks":6,"breaks_goal":12,"as_of":"day_total","source":"Mi Fitness activity screenshot"},
-  "sleep":{"duration_minutes":458,"efficiency_percent":86,"stages":[{"name":"REM","minutes":106,"percent":23},{"name":"浅睡","minutes":215,"percent":47},{"name":"深睡","minutes":137,"percent":30}],"wakeups":4,"awake_minutes":69,"avg_hr":66,"source":"Mi Fitness sleep screenshot","notes":"睡眠7小时38分；睡眠效率86%。REM 1小时46分、浅睡3小时35分、深睡2小时17分；夜间清醒4次，约1小时09分。"},
+  "activity":{"dynamic_kcal":290,"steps":746,"active_minutes":"—","stand_hours":6,"breaks":6,"breaks_goal":12,"as_of":"day_total","source":"Mi Fitness activity screenshot","notes":"专项活动分钟数未提供，网页显示为—，不按0处理。"},
+  "sleep":{"duration_minutes":458,"efficiency_percent":86,"start":"—","end":"—","sleep_onset_minutes":null,"stages":[{"name":"REM","minutes":106,"percent":23},{"name":"浅睡","minutes":215,"percent":47},{"name":"深睡","minutes":137,"percent":30}],"wakeups":4,"awake_minutes":69,"avg_hr":66,"source":"Mi Fitness sleep screenshot","notes":"睡眠7小时38分；睡眠效率86%。REM 1小时46分、浅睡3小时35分、深睡2小时17分；夜间清醒4次，约1小时09分。截图未提供可可靠读取的入睡/醒来时刻。"},
   "diet":[
     {"time":"14:52","name":"Member's Mark 番茄肉酱意面1份","kcal_text":"≈435 kcal","meta":"包装营养成分：511kJ/100g≈122kcal/100g；包装标示4人份、净含量约1428g，按1/4包装约357g计算。"},
     {"time":"14:52","name":"煎蛋1个","kcal_text":"估算≈70–110 kcal","meta":"根据照片记录；用油量未知。"},
