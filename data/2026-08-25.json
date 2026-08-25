@@ -5,7 +5,7 @@
     "kcal_max": 1370,
     "kcal_mid": 1230,
     "as_of": "22:56",
-    "notes": "记录笋丁烧卖1个、刀切馒头约100g、番茄金针菇鱼籽虾滑炒鸡蛋拌饭、西瓜约1000g。西瓜按用户疑似笔误1000kg解释为1000g（1kg），待确认。"
+    "notes": "记录笋丁烧卖1个、刀切馒头约100g、番茄金针菇鱼籽虾滑炒鸡蛋拌饭、西瓜约1000g（1kg）。"
   },
   "activity": {
     "dynamic_kcal": 1082,
@@ -15,12 +15,21 @@
     "as_of": "22:56",
     "notes": "Mi Fitness 当日总览。动态消耗包含日常活动及训练，不与单项训练热量重复相加。"
   },
-  "sleep": null,
+  "sleep": {
+    "duration_minutes": 377,
+    "efficiency_percent": "—",
+    "start": "—",
+    "end": "—",
+    "sleep_onset_minutes": null,
+    "stages": [],
+    "source": "Mi Fitness Health overview screenshot",
+    "notes": "8月25日总睡眠6小时17分，截图评价 Fair；当前仅有总览数据，暂无睡眠阶段详情。"
+  },
   "diet": [
     {"time":"09:41","name":"笋丁烧卖1个","kcal_text":"估算≈90–130 kcal","meta":"根据照片记录；个头偏大，暂无包装营养信息或克重。"},
     {"time":"上午","name":"刀切馒头约100g","kcal_text":"估算≈220–240 kcal","meta":"用户补充重量约100g。"},
     {"time":"中午","name":"番茄金针菇鱼籽虾滑炒鸡蛋拌饭","kcal_text":"估算≈480–600 kcal","meta":"按一餐常见份量暂估；包含米饭、鸡蛋、鱼籽虾滑、番茄和金针菇。"},
-    {"time":"晚上","name":"西瓜约1000g（1kg）","kcal_text":"估算≈300–400 kcal","meta":"用户原文写1000kg，按明显疑似笔误暂记1000g；如实际重量不同可修正。"}
+    {"time":"晚上","name":"西瓜约1000g（1kg）","kcal_text":"估算≈300–400 kcal","meta":"用户已确认实际为1kg。"}
   ],
   "exercise": [
     {"time":"12:24","name":"Zumba","duration":"00:38:15","active_kcal":188,"total_kcal":246,"avg_hr_bpm":154,"max_hr_bpm":182,"training_load":78,"recovery_hours":23,"aerobic_effect":3.5,"anaerobic_effect":1.7},
@@ -33,7 +42,8 @@
   },
   "coach_notes": [
     "三项专项训练合计1小时56分04秒；专项活动热量合计578 kcal，总热量口径合计754 kcal。",
-    "当日总动态消耗1082 kcal，步数10349，活动93分钟，站立13小时。"
+    "当日总动态消耗1082 kcal，步数10349，活动93分钟，站立13小时。",
+    "睡眠总时长6小时17分；当前仅有总览截图，睡眠阶段与效率详情待补充。"
   ],
   "meal_prep": {}
 }
