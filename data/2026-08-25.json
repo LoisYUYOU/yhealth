@@ -1,11 +1,11 @@
 {
   "date": "2026-08-25",
   "intake": {
-    "kcal_min": 310,
-    "kcal_max": 370,
-    "kcal_mid": 340,
-    "as_of": "11:01",
-    "notes": "截至11:01记录笋丁烧卖1个、刀切馒头约100g。"
+    "kcal_min": 1090,
+    "kcal_max": 1370,
+    "kcal_mid": 1230,
+    "as_of": "22:56",
+    "notes": "记录笋丁烧卖1个、刀切馒头约100g、番茄金针菇鱼籽虾滑炒鸡蛋拌饭、西瓜约1000g。西瓜按用户疑似笔误1000kg解释为1000g（1kg），待确认。"
   },
   "activity": {
     "dynamic_kcal": 1082,
@@ -17,68 +17,18 @@
   },
   "sleep": null,
   "diet": [
-    {
-      "time": "09:41",
-      "name": "笋丁烧卖1个",
-      "kcal_text": "估算≈90–130 kcal",
-      "meta": "根据照片记录；个头偏大，暂无包装营养信息或克重。"
-    },
-    {
-      "time": "上午",
-      "name": "刀切馒头约100g",
-      "kcal_text": "估算≈220–240 kcal",
-      "meta": "用户补充重量约100g。"
-    }
+    {"time":"09:41","name":"笋丁烧卖1个","kcal_text":"估算≈90–130 kcal","meta":"根据照片记录；个头偏大，暂无包装营养信息或克重。"},
+    {"time":"上午","name":"刀切馒头约100g","kcal_text":"估算≈220–240 kcal","meta":"用户补充重量约100g。"},
+    {"time":"中午","name":"番茄金针菇鱼籽虾滑炒鸡蛋拌饭","kcal_text":"估算≈480–600 kcal","meta":"按一餐常见份量暂估；包含米饭、鸡蛋、鱼籽虾滑、番茄和金针菇。"},
+    {"time":"晚上","name":"西瓜约1000g（1kg）","kcal_text":"估算≈300–400 kcal","meta":"用户原文写1000kg，按明显疑似笔误暂记1000g；如实际重量不同可修正。"}
   ],
   "exercise": [
-    {
-      "time": "12:24",
-      "name": "Zumba",
-      "duration": "00:38:15",
-      "active_kcal": 188,
-      "total_kcal": 246,
-      "avg_hr_bpm": 154,
-      "max_hr_bpm": 182,
-      "training_load": 78,
-      "recovery_hours": 23,
-      "aerobic_effect": 3.5,
-      "anaerobic_effect": 1.7
-    },
-    {
-      "time": "19:07",
-      "name": "Strength",
-      "duration": "00:26:54",
-      "active_kcal": 134,
-      "total_kcal": 175,
-      "avg_hr_bpm": 117,
-      "max_hr_bpm": 161,
-      "training_load": 15,
-      "recovery_hours": 17,
-      "aerobic_effect": 1.8
-    },
-    {
-      "time": "19:40",
-      "name": "Cardio combat",
-      "duration": "00:50:55",
-      "active_kcal": 256,
-      "total_kcal": 333,
-      "avg_hr_bpm": 139,
-      "max_hr_bpm": 185,
-      "training_load": 63,
-      "recovery_hours": 28,
-      "aerobic_effect": 3.1,
-      "anaerobic_effect": 2.1
-    }
+    {"time":"12:24","name":"Zumba","duration":"00:38:15","active_kcal":188,"total_kcal":246,"avg_hr_bpm":154,"max_hr_bpm":182,"training_load":78,"recovery_hours":23,"aerobic_effect":3.5,"anaerobic_effect":1.7},
+    {"time":"19:07","name":"Strength","duration":"00:26:54","active_kcal":134,"total_kcal":175,"avg_hr_bpm":117,"max_hr_bpm":161,"training_load":15,"recovery_hours":17,"aerobic_effect":1.8},
+    {"time":"19:40","name":"Cardio combat","duration":"00:50:55","active_kcal":256,"total_kcal":333,"avg_hr_bpm":139,"max_hr_bpm":185,"training_load":63,"recovery_hours":28,"aerobic_effect":3.1,"anaerobic_effect":2.1}
   ],
   "body": {
-    "bowel_movements": [
-      {
-        "time": "11:01",
-        "description": "黄色软便，可见纤维，量约一根香蕉",
-        "bristol_estimate": "约5型",
-        "notes": "根据用户描述记录。"
-      }
-    ],
+    "bowel_movements": [{"time":"11:01","description":"黄色软便，可见纤维，量约一根香蕉","bristol_estimate":"约5型","notes":"根据用户描述记录。"}],
     "composition": null
   },
   "coach_notes": [
