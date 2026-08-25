@@ -1,0 +1,46 @@
+{
+  "date": "2026-08-25",
+  "intake": {
+    "kcal_min": 310,
+    "kcal_max": 370,
+    "kcal_mid": 340,
+    "as_of": "11:01",
+    "notes": "截至11:01记录笋丁烧卖1个、刀切馒头约100g。"
+  },
+  "activity": {
+    "dynamic_kcal": null,
+    "steps": null,
+    "active_minutes": null,
+    "stand_hours": null,
+    "as_of": null
+  },
+  "sleep": null,
+  "diet": [
+    {
+      "time": "09:41",
+      "name": "笋丁烧卖1个",
+      "kcal_text": "估算≈90–130 kcal",
+      "meta": "根据照片记录；个头偏大，暂无包装营养信息或克重。"
+    },
+    {
+      "time": "上午",
+      "name": "刀切馒头约100g",
+      "kcal_text": "估算≈220–240 kcal",
+      "meta": "用户补充重量约100g。"
+    }
+  ],
+  "exercise": [],
+  "body": {
+    "bowel_movements": [
+      {
+        "time": "11:01",
+        "description": "黄色软便，可见纤维，量约一根香蕉",
+        "bristol_estimate": "约5型",
+        "notes": "根据用户描述记录。"
+      }
+    ],
+    "composition": null
+  },
+  "coach_notes": [],
+  "meal_prep": {}
+}
