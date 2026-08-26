@@ -3,12 +3,19 @@
   "menstrual_cycles": [
     {"start":"2026-08-14","end":"2026-08-18"}
   ],
+  "energy_model": {
+    "resting_kcal_daily": 1410,
+    "label": "估算静息消耗",
+    "method": "Mifflin-St Jeor based estimate; use source-provided resting_kcal when available",
+    "updated_on": "2026-08-26"
+  },
   "recording_rules": {
     "default_time_source":"message_time",
     "prefer_explicit_time":true,
     "keep_estimates_marked":true,
     "activity_summary_uses_daily_dynamic_kcal":true,
-    "exercise_kcal_is_detail_only":true
+    "exercise_kcal_is_detail_only":true,
+    "calorie_balance_uses_total_burn":true
   },
-  "pages_refresh_token":"2026-08-26T08:55+08:00"
+  "pages_refresh_token":"2026-08-26T23:05+08:00"
 }
