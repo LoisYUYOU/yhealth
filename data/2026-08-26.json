@@ -5,7 +5,7 @@
   "sleep": {"duration_minutes": 359, "efficiency_percent": 99, "stages": [{"name":"REM","minutes":86,"percent":24},{"name":"浅睡","minutes":170,"percent":47},{"name":"深睡","minutes":103,"percent":29}], "wakeups": null, "awake_minutes": 3, "avg_hr": 61, "avg_respiration": 16, "source": "Mi Fitness sleep detail screenshot", "notes": "2026-08-26睡眠详情：总睡眠5小时59分，评分80（+10 vitality），睡眠效率99%；REM 1小时26分（24%）、浅睡2小时50分（47%）、深睡1小时43分（29%）；截图显示在床约6小时02分、清醒约3分钟；平均心率61 BPM、平均呼吸频率16次/分。"},
   "diet": [],
   "exercise": [],
-  "body": {"bowel_movements": [{"time":"上午","description":"香蕉状成形便，量约一根手指大小","bristol_estimate":"约4型","notes":"用户在排便过程中实时描述；量较少。"}], "composition": {"time":"08:54","weight_kg":69.50,"bmi":27.8,"body_fat_percent":null,"muscle_mass":null,"source":"Mi Fitness S800 body composition scale screenshot","notes":"08/26/2026 08:54测量；体重69.50kg，较1天前下降0.35kg。体脂率和肌肉量本次未显示数值。"}},
+  "body": {"bowel_movements": [{"time":"09:38","description":"香蕉状成形便，量约一根手指大小","bristol_estimate":"约4型","notes":"用户在排便过程中实时描述；记录时间按该次实时消息附近的当前本地时间09:38；量较少。"}], "composition": {"time":"08:54","weight_kg":69.50,"bmi":27.8,"body_fat_percent":null,"muscle_mass":null,"source":"Mi Fitness S800 body composition scale screenshot","notes":"08/26/2026 08:54测量；体重69.50kg，较1天前下降0.35kg。体脂率和肌肉量本次未显示数值。"}},
   "coach_notes": ["睡眠5小时59分，效率99%；REM 1小时26分（24%）、浅睡2小时50分（47%）、深睡1小时43分（29%）。","08:54体重69.50kg，BMI 27.8；体脂率与肌肉量本次无有效读数。"],
   "meal_prep": {}
 }
