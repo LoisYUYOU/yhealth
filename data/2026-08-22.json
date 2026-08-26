@@ -5,7 +5,7 @@
   "sleep":{"duration_minutes":458,"start":"01:55","end":"09:47","efficiency_percent":86,"bed_minutes":null,"sleep_onset_minutes":null,"avg_hr":null,"avg_respiration":null,"stages":[{"name":"深睡","minutes":141,"percent":30},{"name":"浅睡","minutes":215,"percent":47},{"name":"REM","minutes":106,"percent":23}],"wakeups":4,"awake_minutes":19,"source":"sleep screenshot"},
   "diet":[{"time":"15:00","name":"薯条1份","kcal_text":"估算≈350–450 kcal","meta":"未提供重量/品牌，按常见单份炸薯条估算"},{"time":"15:00","name":"鸡肉条1份","kcal_text":"估算≈300–400 kcal","meta":"未提供重量/数量，按常见单份裹粉炸鸡肉条估算"},{"time":"15:00","name":"鸡翅根1个","kcal_text":"估算≈140–200 kcal","meta":"未提供重量及烹饪方式，暂按常见炸/烤鸡翅根估算"},{"time":"15:00","name":"榴莲肉200g","kcal_text":"估算≈300 kcal","meta":"用户报告可食榴莲肉200g；按约150 kcal/100g估算"}],
   "exercise":[],
-  "body":{"bowel_movements":[],"composition":{"time":"14:33","weight_kg":69.7,"body_fat_percent":37.0,"source":"body record screenshot"}},
-  "coach_notes":["睡眠7小时38分，时长较前一日明显增加；睡眠效率86%，夜间清醒约19分钟、醒来4次。"],
+  "body":{"bowel_movements":[],"composition":{"time":"14:33","weight_kg":69.7,"bmi":27.9,"body_fat_percent":37.0,"fat_mass_kg":25.8,"muscle_mass":41.4,"muscle_percent":59.4,"skeletal_muscle_mass_kg":24.3,"skeletal_muscle_index":7.4,"protein_mass_kg":8.3,"protein_percent":11.9,"body_water_mass_kg":32.5,"body_water_percent":46.6,"bone_mineral_mass_kg":2.5,"bone_mineral_percent":3.6,"visceral_fat_rating":11.0,"waist_to_hip_ratio":0.9,"basal_metabolic_rate_kcal":1318,"fat_free_body_weight_kg":43.9,"body_age":21,"recommended_calorie_intake_kcal":1911,"body_score":76,"heart_rate_bpm":107,"source":"Mi Fitness body composition analysis report"}},
+  "coach_notes":["睡眠7小时38分，时长较前一日明显增加；睡眠效率86%，夜间清醒约19分钟、醒来4次。","8月22日身体成分报告：体重69.7kg、BMI 27.9、体脂率37.0%、脂肪量25.8kg、肌肉量41.4kg、骨骼肌24.3kg、基础代谢率1318 kcal/日。"],
   "meal_prep":{}
 }
