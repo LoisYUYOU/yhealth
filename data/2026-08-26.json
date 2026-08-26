@@ -1,19 +1,16 @@
 {
   "date": "2026-08-26",
-  "intake": {"kcal_min": 1650, "kcal_max": 2230, "kcal_mid": 1940, "as_of": "22:56 晚餐后", "notes": "截至22:56：早餐咖喱牛肉包1个、鲜肉包1个；午餐豆腐虾仁皮蛋小青菜拌饭；晚餐/夜间刚吃大盘鸡盖饭1份。大盘鸡盖饭未提供照片、克重和商家信息，按常见外食一份暂估700–950 kcal。"},
-  "activity": {"dynamic_kcal": null, "steps": null, "active_minutes": null, "stand_hours": null, "as_of": "08:55", "notes": "截至08:55尚未提供今日全天活动总览。"},
-  "sleep": {"duration_minutes": 359, "efficiency_percent": 99, "stages": [{"name":"REM","minutes":86,"percent":24},{"name":"浅睡","minutes":170,"percent":47},{"name":"深睡","minutes":103,"percent":29}], "wakeups": null,"awake_minutes": 3,"avg_hr": 61,"avg_respiration": 16,"source": "Mi Fitness sleep detail screenshot","notes": "2026-08-26睡眠详情：总睡眠5小时59分，评分80（+10 vitality），睡眠效率99%；REM 1小时26分（24%）、浅睡2小时50分（47%）、深睡1小时43分（29%）；截图显示在床约6小时02分、清醒约3分钟；平均心率61 BPM、平均呼吸频率16次/分。"},
+  "intake": {"kcal_min":1650,"kcal_max":2230,"kcal_mid":1940,"as_of":"22:56 晚餐后","notes":"截至22:56：早餐咖喱牛肉包1个、鲜肉包1个；午餐豆腐虾仁皮蛋小青菜拌饭；晚餐/夜间刚吃大盘鸡盖饭1份。大盘鸡盖饭未提供照片、克重和商家信息，按常见外食一份暂估700–950 kcal。"},
+  "activity": {"dynamic_kcal":879,"steps":9820,"active_minutes":81,"stand_hours":13,"as_of":"22:57","source":"Mi Fitness Health screenshot","notes":"08/26 22:57 健康总览：动态消耗879 kcal，9820步，活动81分钟，站立/Breaks 13小时。动态消耗已包含运动，不与Zumba活动热量重复相加。"},
+  "sleep": {"duration_minutes":359,"efficiency_percent":99,"stages":[{"name":"REM","minutes":86,"percent":24},{"name":"浅睡","minutes":170,"percent":47},{"name":"深睡","minutes":103,"percent":29}],"wakeups":null,"awake_minutes":3,"avg_hr":61,"avg_respiration":16,"source":"Mi Fitness sleep detail screenshot","notes":"2026-08-26睡眠详情：总睡眠5小时59分，评分80（+10 vitality），睡眠效率99%；REM 1小时26分（24%）、浅睡2小时50分（47%）、深睡1小时43分（29%）；截图显示在床约6小时02分、清醒约3分钟；平均心率61 BPM、平均呼吸频率16次/分。"},
   "diet": [
     {"meal":"早餐","time":"早餐","name":"咖喱牛肉包","quantity":"1个","kcal_min":190,"kcal_max":270,"kcal_mid":230,"estimate_rationale":"根据照片和用户描述，按常见中等大小咖喱牛肉包估算；未提供克重。"},
     {"meal":"早餐","time":"早餐","name":"鲜肉包","quantity":"1个","kcal_min":210,"kcal_max":290,"kcal_mid":250,"estimate_rationale":"根据照片和用户描述，按常见中等大小鲜肉包估算；未提供克重。"},
     {"meal":"午餐","time":"14:41","name":"豆腐虾仁皮蛋小青菜拌饭","quantity":"1份；米饭配豆腐、虾仁、皮蛋、小青菜","kcal_min":550,"kcal_max":720,"kcal_mid":635,"estimate_rationale":"食材由用户明确更正为豆腐、虾仁、皮蛋、小青菜和米饭；依据两张现场照片估算份量，并计入炒制调味和用油；未提供各食材克重，因此保留较宽区间。","notes":"用户明确指出此前识别的菌菇实际为皮蛋；以用户更正为准。"},
     {"meal":"晚餐","time":"约22:56","name":"大盘鸡盖饭","quantity":"1份","kcal_min":700,"kcal_max":950,"kcal_mid":825,"estimate_rationale":"用户描述刚吃了一份大盘鸡盖饭；未提供照片、克重或商家营养信息，按常见外食份量估算，主要热量来自米饭、鸡肉、土豆及烹调油。"}
   ],
-  "exercise": [],
-  "body": {"bowel_movements": [
-    {"time":"09:38","description":"香蕉状成形便，量约一根手指大小","bristol_estimate":"约4型","notes":"用户在排便过程中实时描述；记录时间按该次实时消息附近的当前本地时间09:38；量较少。"},
-    {"time":"10:42","description":"黑褐色，香蕉状/香蕉质地成形便，量约两根手指大小","bristol_estimate":"约4型","amount":"约两根手指大小","color":"黑褐色","notes":"用户实时记录；时间按当前本地时间10:42。"}
-  ],"composition":{"time":"08:54","weight_kg":69.50,"bmi":27.8,"body_fat_percent":null,"muscle_mass":null,"source":"Mi Fitness S800 body composition scale screenshot","notes":"08/26/2026 08:54测量；体重69.50kg，较1天前下降0.35kg。体脂率和肌肉量本次未显示数值。"}},
-  "coach_notes": ["睡眠5小时59分，效率99%；REM 1小时26分（24%）、浅睡2小时50分（47%）、深睡1小时43分（29%）。","08:54体重69.50kg，BMI 27.8；体脂率与肌肉量本次无有效读数。","早餐为咖喱牛肉包1个和鲜肉包1个，估算约400–560 kcal。","午餐豆腐虾仁皮蛋小青菜拌饭估算约550–720 kcal。","约22:56吃大盘鸡盖饭1份，暂估约700–950 kcal；今日累计摄入暂估约1650–2230 kcal。"],
+  "exercise": [{"name":"Zumba","time":"12:17","duration":"00:56:15","active_kcal":283,"total_kcal":367,"avg_hr_bpm":142,"max_hr_bpm":176,"aerobic_effect":3.4,"anaerobic_effect":1.7,"training_load":80,"recovery_hours":27,"vitality_score":14,"source":"Mi Fitness / Xiaomi Smart Band 10 screenshot","notes":"心率区间：轻度4:13、强度6:55、有氧26:00、无氧18:19、VO2 max 0:24。"}],
+  "body": {"bowel_movements":[{"time":"09:38","description":"香蕉状成形便，量约一根手指大小","bristol_estimate":"约4型","notes":"用户在排便过程中实时描述；记录时间按该次实时消息附近的当前本地时间09:38；量较少。"},{"time":"10:42","description":"黑褐色，香蕉状/香蕉质地成形便，量约两根手指大小","bristol_estimate":"约4型","amount":"约两根手指大小","color":"黑褐色","notes":"用户实时记录；时间按当前本地时间10:42。"}],"composition":{"time":"08:54","weight_kg":69.50,"bmi":27.8,"body_fat_percent":null,"muscle_mass":null,"source":"Mi Fitness S800 body composition scale screenshot","notes":"08/26/2026 08:54测量；体重69.50kg，较1天前下降0.35kg。体脂率和肌肉量本次未显示数值。"}},
+  "coach_notes":["睡眠5小时59分，效率99%；REM 1小时26分（24%）、浅睡2小时50分（47%）、深睡1小时43分（29%）。","08:54体重69.50kg，BMI 27.8；体脂率与肌肉量本次无有效读数。","早餐为咖喱牛肉包1个和鲜肉包1个，估算约400–560 kcal。","午餐豆腐虾仁皮蛋小青菜拌饭估算约550–720 kcal。","约22:56吃大盘鸡盖饭1份，暂估约700–950 kcal；今日累计摄入暂估约1650–2230 kcal。","12:17完成Zumba 56分15秒，活动消耗283 kcal、总消耗367 kcal，平均心率142、最高176 BPM；截至22:57全天动态消耗879 kcal、9820步、活动81分钟、站立13小时。"],
   "meal_prep": {}
 }
