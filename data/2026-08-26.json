@@ -1,11 +1,14 @@
 {
   "date": "2026-08-26",
-  "intake": {"kcal_min": null, "kcal_max": null, "kcal_mid": null, "as_of": "08:55", "notes": "截至08:55尚未提供今日饮食记录。"},
+  "intake": {"kcal_min": 400, "kcal_max": 560, "kcal_mid": 480, "as_of": "早餐", "notes": "截至早餐：咖喱牛肉包1个、鲜肉包1个。按常见中等大小包子估算，实际热量受包子重量、肥瘦和馅料用油影响。"},
   "activity": {"dynamic_kcal": null, "steps": null, "active_minutes": null, "stand_hours": null, "as_of": "08:55", "notes": "截至08:55尚未提供今日全天活动总览。"},
   "sleep": {"duration_minutes": 359, "efficiency_percent": 99, "stages": [{"name":"REM","minutes":86,"percent":24},{"name":"浅睡","minutes":170,"percent":47},{"name":"深睡","minutes":103,"percent":29}], "wakeups": null, "awake_minutes": 3, "avg_hr": 61, "avg_respiration": 16, "source": "Mi Fitness sleep detail screenshot", "notes": "2026-08-26睡眠详情：总睡眠5小时59分，评分80（+10 vitality），睡眠效率99%；REM 1小时26分（24%）、浅睡2小时50分（47%）、深睡1小时43分（29%）；截图显示在床约6小时02分、清醒约3分钟；平均心率61 BPM、平均呼吸频率16次/分。"},
-  "diet": [],
+  "diet": [
+    {"meal":"早餐","time":"早餐","name":"咖喱牛肉包","quantity":"1个","kcal_min":190,"kcal_max":270,"kcal_mid":230,"estimate_rationale":"根据照片和用户描述，按常见中等大小咖喱牛肉包估算；未提供克重。"},
+    {"meal":"早餐","time":"早餐","name":"鲜肉包","quantity":"1个","kcal_min":210,"kcal_max":290,"kcal_mid":250,"estimate_rationale":"根据照片和用户描述，按常见中等大小鲜肉包估算；未提供克重。"}
+  ],
   "exercise": [],
   "body": {"bowel_movements": [{"time":"09:38","description":"香蕉状成形便，量约一根手指大小","bristol_estimate":"约4型","notes":"用户在排便过程中实时描述；记录时间按该次实时消息附近的当前本地时间09:38；量较少。"}], "composition": {"time":"08:54","weight_kg":69.50,"bmi":27.8,"body_fat_percent":null,"muscle_mass":null,"source":"Mi Fitness S800 body composition scale screenshot","notes":"08/26/2026 08:54测量；体重69.50kg，较1天前下降0.35kg。体脂率和肌肉量本次未显示数值。"}},
-  "coach_notes": ["睡眠5小时59分，效率99%；REM 1小时26分（24%）、浅睡2小时50分（47%）、深睡1小时43分（29%）。","08:54体重69.50kg，BMI 27.8；体脂率与肌肉量本次无有效读数。"],
+  "coach_notes": ["睡眠5小时59分，效率99%；REM 1小时26分（24%）、浅睡2小时50分（47%）、深睡1小时43分（29%）。","08:54体重69.50kg，BMI 27.8；体脂率与肌肉量本次无有效读数。","早餐为咖喱牛肉包1个和鲜肉包1个，估算约400–560 kcal。"],
   "meal_prep": {}
 }
