@@ -1,0 +1,17 @@
+{
+  "date": "2026-08-28",
+  "intake": {"kcal_min": null, "kcal_max": null, "kcal_mid": null, "as_of": "10:51", "notes": "截至10:51尚未提供今日饮食记录。"},
+  "activity": {"dynamic_kcal": null, "steps": null, "active_minutes": null, "stand_hours": null, "as_of": "10:51", "notes": "截至10:51尚未提供今日全天活动总览。"},
+  "sleep": {"duration_minutes": null, "efficiency_percent": null, "stages": [], "wakeups": null, "awake_minutes": null, "avg_hr": null, "avg_respiration": null, "notes": "截至10:51尚未提供今日睡眠记录。"},
+  "diet": [],
+  "exercise": [],
+  "body": {
+    "bowel_movements": [
+      {"time": "约10:51", "description": "固体便1次，排便顺畅", "bristol_estimate": null, "notes": "用户描述刚刚连续排便两次中的第一次；未提供更具体形状、颜色和量，因此不猜测 Bristol 类型。"},
+      {"time": "约10:51", "description": "稀便1次，排便顺畅", "bristol_estimate": null, "notes": "用户描述刚刚连续排便两次中的第二次；未提供更具体稀软程度、颜色和量，因此不猜测 Bristol 类型。"}
+    ],
+    "composition": null
+  },
+  "coach_notes": ["约10:51连续排便2次：先固体便、后稀便，主观均较顺畅；暂记录观察，因缺少更具体性状不强行判定 Bristol 类型。"],
+  "meal_prep": {}
+}
