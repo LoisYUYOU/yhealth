@@ -1,11 +1,11 @@
 {
   "date":"2026-08-28",
-  "intake":{"kcal_min":600,"kcal_max":820,"kcal_mid":710,"as_of":"13:45","notes":"截至13:45记录一份番茄酱意面，加煎蛋2个。根据照片估算份量；意面实际重量、酱料和煎蛋用油未知，因此保留区间。"},
+  "intake":{"kcal_min":575,"kcal_max":655,"kcal_mid":615,"as_of":"13:45","notes":"截至13:45：Member's Mark 番茄肉酱意面1份 + 煎蛋2个。意面与8/23记录为同一产品和同一份量，直接复用包装营养信息：511kJ/100g≈122kcal/100g，整包约1428g、4人份，1份约357g≈435 kcal。2个煎蛋因用油未知估算约140–220 kcal。"},
   "activity":{"dynamic_kcal":null,"steps":null,"active_minutes":null,"stand_hours":null,"as_of":"10:51","notes":"截至10:51尚未提供今日全天活动总览。"},
   "sleep":{"duration_minutes":null,"efficiency_percent":null,"stages":[],"wakeups":null,"awake_minutes":null,"avg_hr":null,"avg_respiration":null,"notes":"截至10:51尚未提供今日睡眠记录。"},
-  "diet":[{"meal":"午餐","time":"13:45","name":"番茄酱意面 + 煎蛋2个","quantity":"意面1份，鸡蛋2个","kcal_min":600,"kcal_max":820,"kcal_mid":710,"estimate_rationale":"照片可见一碗番茄酱意面和2个煎蛋；按常见熟意面份量、番茄酱/调味及2个煎蛋估算。未提供意面克重、酱料品牌或烹调油量，因此不做精确值。"}],
+  "diet":[{"meal":"午餐","time":"13:45","name":"Member's Mark 番茄肉酱意面1份","quantity":"约357g（包装1/4份）","kcal_min":435,"kcal_max":435,"kcal_mid":435,"kcal_text":"≈435 kcal","estimate_rationale":"直接复用8/23同款产品的包装营养信息：511kJ/100g≈122kcal/100g；整包净含量约1428g、标示4人份，按1/4包装约357g计算。用户确认今天这一份与此前完全相同。"},{"meal":"午餐","time":"13:45","name":"煎蛋","quantity":"2个","kcal_min":140,"kcal_max":220,"kcal_mid":180,"estimate_rationale":"按2个鸡蛋并考虑煎制用油估算；用油量未知，因此保留区间。"}],
   "exercise":[],
   "body":{"bowel_movements":[{"time":"约10:51","description":"固体便1次，排便顺畅","bristol_estimate":null,"notes":"用户描述刚刚连续排便两次中的第一次；未提供更具体形状、颜色和量，因此不猜测 Bristol 类型。"},{"time":"约10:51","description":"稀便1次，排便顺畅","bristol_estimate":null,"notes":"用户描述刚刚连续排便两次中的第二次；未提供更具体稀软程度、颜色和量，因此不猜测 Bristol 类型。"}],"composition":{"time":"09:21","weight_kg":69.00,"bmi":null,"body_fat_percent":null,"muscle_mass":null,"source":"Mi Fitness weight history screenshot","notes":"8/28 09:21体重69.00kg；该历史列表未显示当次BMI、体脂率或肌肉量。"}},
-  "coach_notes":["约10:51连续排便2次：先固体便、后稀便，主观均较顺畅；暂记录观察，因缺少更具体性状不强行判定 Bristol 类型。","09:21体重69.00kg。","13:45吃番茄酱意面1份并加煎蛋2个，暂估约600–820 kcal。"],
+  "coach_notes":["约10:51连续排便2次：先固体便、后稀便，主观均较顺畅；暂记录观察，因缺少更具体性状不强行判定 Bristol 类型。","09:21体重69.00kg。","13:45吃Member's Mark番茄肉酱意面1份（复用8/23包装实值≈435 kcal）和煎蛋2个（估算≈140–220 kcal），本餐合计约575–655 kcal。"],
   "meal_prep":{}
 }
