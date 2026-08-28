@@ -1,14 +1,11 @@
 {
-  "date": "2026-08-27",
-  "intake": {"kcal_min": 900, "kcal_max": 1250, "kcal_mid": 1075, "as_of": "13:46 午餐", "notes": "当前仅有午餐记录：芥蓝牛肉饭1份 + 肯德基翅根2个。未提供准确克重/营养表，按照片与常见外食份量估算；当天其他饮食尚未记录，因此不是全天总摄入。"},
-  "activity": {"dynamic_kcal":727,"steps":5982,"active_minutes":null,"stand_hours":null,"breaks":8,"breaks_goal":12,"as_of":"day_total","source":"Mi Fitness Stats screenshot","notes":"8/27健康总览：动态消耗727 kcal，5982步，Breaks 8/12。截图未提供可可靠读取的活动分钟/站立小时。"},
-  "sleep": {"duration_minutes":253,"efficiency_percent":98,"stages":[{"name":"REM","minutes":69,"percent":27},{"name":"浅睡","minutes":110,"percent":44},{"name":"深睡","minutes":74,"percent":29}],"wakeups":null,"awake_minutes":5,"avg_hr":62,"avg_respiration":16,"source":"Mi Fitness sleep screenshot","notes":"8/27睡眠4小时13分，评分62（+12 vitality），效率98%；REM 1小时09分（27%）、浅睡1小时50分（44%）、深睡1小时14分（29%）；在床约4小时18分、清醒约5分钟；平均心率62 BPM、平均呼吸16次/分。"},
-  "diet": [
-    {"meal":"午餐","time":"13:46","name":"芥蓝牛肉饭","quantity":"1份","kcal_min":650,"kcal_max":850,"kcal_mid":750,"estimate_rationale":"依据用户照片和明确更正的菜名估算；米饭、牛肉、芥蓝及烹调油具体克重未知。"},
-    {"meal":"午餐","time":"13:46","name":"肯德基翅根","quantity":"2个","kcal_min":250,"kcal_max":400,"kcal_mid":325,"estimate_rationale":"用户明确补充2个肯德基翅根；具体产品规格/营养信息未提供，按常见炸制翅根估算。"}
-  ],
-  "exercise": [{"name":"Zumba","time":"12:16","duration":"00:45:20","active_kcal":228,"total_kcal":296,"avg_hr_bpm":145,"max_hr_bpm":167,"aerobic_effect":3.2,"anaerobic_effect":1.4,"training_load":64,"recovery_hours":22,"vitality_score":7,"source":"Mi Fitness / Xiaomi Smart Band 10 screenshot","notes":"心率区间：轻度0:02、强度2:59、有氧29:09、无氧12:52、VO2 max 0:00。"}],
-  "body": {"bowel_movements":[],"composition":null},
-  "coach_notes": ["8/27睡眠仅4小时13分，虽效率98%，但总时长明显不足。","12:16完成Zumba 45分20秒，活动消耗228 kcal，平均心率145、最高167 BPM。","全天动态消耗727 kcal、5982步、Breaks 8/12；专项运动热量已包含在动态消耗中，不重复相加。","午餐芥蓝牛肉饭 + 肯德基翅根2个暂估900–1250 kcal；当天其他饮食未提供，因此不可视为全天摄入。"],
-  "meal_prep": {}
+  "date":"2026-08-27",
+  "intake":{"kcal_min":900,"kcal_max":1250,"kcal_mid":1075,"as_of":"13:46 午餐","notes":"当前仅有午餐记录：芥蓝牛肉饭1份 + 肯德基翅根2个。未提供准确克重/营养表，按照片与常见外食份量估算；当天其他饮食尚未记录，因此不是全天总摄入。"},
+  "activity":{"dynamic_kcal":727,"steps":5982,"active_minutes":null,"stand_hours":null,"breaks":8,"breaks_goal":12,"as_of":"day_total","source":"Mi Fitness Stats screenshot","notes":"8/27健康总览：动态消耗727 kcal，5982步，Breaks 8/12。截图未提供可可靠读取的活动分钟/站立小时。"},
+  "sleep":{"duration_minutes":253,"efficiency_percent":98,"stages":[{"name":"REM","minutes":69,"percent":27},{"name":"浅睡","minutes":110,"percent":44},{"name":"深睡","minutes":74,"percent":29}],"wakeups":null,"awake_minutes":5,"avg_hr":62,"avg_respiration":16,"source":"Mi Fitness sleep screenshot","notes":"8/27睡眠4小时13分，评分62（+12 vitality），效率98%；REM 1小时09分（27%）、浅睡1小时50分（44%）、深睡1小时14分（29%）；在床约4小时18分、清醒约5分钟；平均心率62 BPM、平均呼吸16次/分。"},
+  "diet":[{"meal":"午餐","time":"13:46","name":"芥蓝牛肉饭","quantity":"1份","kcal_min":650,"kcal_max":850,"kcal_mid":750,"estimate_rationale":"依据用户照片和明确更正的菜名估算；米饭、牛肉、芥蓝及烹调油具体克重未知。"},{"meal":"午餐","time":"13:46","name":"肯德基翅根","quantity":"2个","kcal_min":250,"kcal_max":400,"kcal_mid":325,"estimate_rationale":"用户明确补充2个肯德基翅根；具体产品规格/营养信息未提供，按常见炸制翅根估算。"}],
+  "exercise":[{"name":"Zumba","time":"12:16","duration":"00:45:20","active_kcal":228,"total_kcal":296,"avg_hr_bpm":145,"max_hr_bpm":167,"aerobic_effect":3.2,"anaerobic_effect":1.4,"training_load":64,"recovery_hours":22,"vitality_score":7,"source":"Mi Fitness / Xiaomi Smart Band 10 screenshot","notes":"心率区间：轻度0:02、强度2:59、有氧29:09、无氧12:52、VO2 max 0:00。"}],
+  "body":{"bowel_movements":[],"composition":{"time":"09:01","weight_kg":69.90,"bmi":null,"body_fat_percent":null,"muscle_mass":null,"source":"Mi Fitness weight history screenshot","notes":"8/27 09:01体重69.90kg；该历史列表未显示当次BMI、体脂率或肌肉量。"}},
+  "coach_notes":["8/27睡眠仅4小时13分，虽效率98%，但总时长明显不足。","12:16完成Zumba 45分20秒，活动消耗228 kcal，平均心率145、最高167 BPM。","全天动态消耗727 kcal、5982步、Breaks 8/12；专项运动热量已包含在动态消耗中，不重复相加。","午餐芥蓝牛肉饭 + 肯德基翅根2个暂估900–1250 kcal；当天其他饮食未提供，因此不可视为全天摄入。","09:01体重69.90kg。"],
+  "meal_prep":{}
 }
