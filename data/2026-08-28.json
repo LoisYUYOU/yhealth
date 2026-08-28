@@ -1,10 +1,11 @@
 {
   "date":"2026-08-28",
-  "intake":{"kcal_min":null,"kcal_max":null,"kcal_mid":null,"as_of":"10:51","notes":"截至10:51尚未提供今日饮食记录。"},
+  "intake":{"kcal_min":600,"kcal_max":820,"kcal_mid":710,"as_of":"13:45","notes":"截至13:45记录一份番茄酱意面，加煎蛋2个。根据照片估算份量；意面实际重量、酱料和煎蛋用油未知，因此保留区间。"},
   "activity":{"dynamic_kcal":null,"steps":null,"active_minutes":null,"stand_hours":null,"as_of":"10:51","notes":"截至10:51尚未提供今日全天活动总览。"},
   "sleep":{"duration_minutes":null,"efficiency_percent":null,"stages":[],"wakeups":null,"awake_minutes":null,"avg_hr":null,"avg_respiration":null,"notes":"截至10:51尚未提供今日睡眠记录。"},
-  "diet":[],"exercise":[],
+  "diet":[{"meal":"午餐","time":"13:45","name":"番茄酱意面 + 煎蛋2个","quantity":"意面1份，鸡蛋2个","kcal_min":600,"kcal_max":820,"kcal_mid":710,"estimate_rationale":"照片可见一碗番茄酱意面和2个煎蛋；按常见熟意面份量、番茄酱/调味及2个煎蛋估算。未提供意面克重、酱料品牌或烹调油量，因此不做精确值。"}],
+  "exercise":[],
   "body":{"bowel_movements":[{"time":"约10:51","description":"固体便1次，排便顺畅","bristol_estimate":null,"notes":"用户描述刚刚连续排便两次中的第一次；未提供更具体形状、颜色和量，因此不猜测 Bristol 类型。"},{"time":"约10:51","description":"稀便1次，排便顺畅","bristol_estimate":null,"notes":"用户描述刚刚连续排便两次中的第二次；未提供更具体稀软程度、颜色和量，因此不猜测 Bristol 类型。"}],"composition":{"time":"09:21","weight_kg":69.00,"bmi":null,"body_fat_percent":null,"muscle_mass":null,"source":"Mi Fitness weight history screenshot","notes":"8/28 09:21体重69.00kg；该历史列表未显示当次BMI、体脂率或肌肉量。"}},
-  "coach_notes":["约10:51连续排便2次：先固体便、后稀便，主观均较顺畅；暂记录观察，因缺少更具体性状不强行判定 Bristol 类型。","09:21体重69.00kg。"],
+  "coach_notes":["约10:51连续排便2次：先固体便、后稀便，主观均较顺畅；暂记录观察，因缺少更具体性状不强行判定 Bristol 类型。","09:21体重69.00kg。","13:45吃番茄酱意面1份并加煎蛋2个，暂估约600–820 kcal。"],
   "meal_prep":{}
 }
