@@ -1,15 +1,15 @@
 {
   "date":"2026-08-30",
-  "intake":{"kcal_min":910,"kcal_max":1050,"kcal_mid":980,"as_of":"14:01","notes":"截至14:01已记录：西瓜约2kg、卤鸡腿1个、煮鸡蛋2个。西瓜按用户所述食用量2kg直接计入；鸡腿因大小和卤汁/带皮情况未知保留估算区间。"},
+  "intake":{"kcal_min":620,"kcal_max":740,"kcal_mid":680,"as_of":"14:01","notes":"截至14:01已记录：西瓜约1kg、卤鸡腿1个、煮鸡蛋2个。用户随后用称重照片更正西瓜为约1kg（标签1015g）；鸡腿因大小和卤汁/带皮情况未知保留估算区间。"},
   "activity":{"dynamic_kcal":null,"steps":null,"active_minutes":null,"stand_hours":null,"as_of":"14:01","notes":"尚未提供今日运动/全天活动数据。"},
   "sleep":{"duration_minutes":null,"efficiency_percent":null,"stages":[],"wakeups":null,"awake_minutes":null,"avg_hr":null,"avg_respiration":null,"notes":"尚未提供今日睡眠记录。"},
   "diet":[
-    {"meal":"白天","time":"截至14:01","name":"西瓜","quantity":"约2kg","kcal_min":580,"kcal_max":620,"kcal_mid":600,"estimate_rationale":"按西瓜约30 kcal/100g估算；用户明确表示吃了2kg。"},
+    {"meal":"白天","time":"截至14:01","name":"西瓜","quantity":"约1kg（称重标签1015g）","kcal_min":290,"kcal_max":310,"kcal_mid":300,"estimate_rationale":"用户提供称重照片，标签显示1015g；按西瓜约30 kcal/100g估算。"},
     {"meal":"白天","time":"截至14:01","name":"卤鸡腿","quantity":"1个","kcal_min":180,"kcal_max":270,"kcal_mid":225,"estimate_rationale":"按普通带皮卤鸡腿估算；实际大小、可食部和卤汁含糖/油量未知。"},
     {"meal":"白天","time":"截至14:01","name":"煮鸡蛋","quantity":"2个","kcal_min":150,"kcal_max":160,"kcal_mid":155,"estimate_rationale":"按普通鸡蛋约75–80 kcal/个估算。"}
   ],
   "exercise":[],
   "body":{"bowel_movements":[],"composition":{}},
-  "coach_notes":["截至14:01饮食暂估约910–1050 kcal（中位约980 kcal）。","西瓜摄入量较大，约2kg，对应约600 kcal；同时水分摄入很多。","今日运动状况尚未上传，待补充后再计算当天能量平衡。"],
+  "coach_notes":["用户更正西瓜摄入量：不是2kg，而是约1kg；称重照片标签显示1015g。","截至14:01饮食暂估约620–740 kcal（中位约680 kcal）。","今日运动状况尚未上传，待补充后再计算当天能量平衡。"],
   "meal_prep":{}
 }
