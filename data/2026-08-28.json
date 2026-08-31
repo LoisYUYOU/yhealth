@@ -1,11 +1,11 @@
 {
   "date":"2026-08-28",
   "intake":{"kcal_min":575,"kcal_max":655,"kcal_mid":615,"as_of":"13:45","notes":"截至13:45：Member's Mark 番茄肉酱意面1份 + 煎蛋2个。意面与8/23记录为同一产品和同一份量，直接复用包装营养信息：511kJ/100g≈122kcal/100g，整包约1428g、4人份，1份约357g≈435 kcal。2个煎蛋因用油未知估算约140–220 kcal。"},
-  "activity":{"dynamic_kcal":null,"steps":null,"active_minutes":null,"stand_hours":null,"as_of":"10:51","notes":"截至10:51尚未提供今日全天活动总览。"},
-  "sleep":{"duration_minutes":null,"efficiency_percent":null,"stages":[],"wakeups":null,"awake_minutes":null,"avg_hr":null,"avg_respiration":null,"notes":"截至10:51尚未提供今日睡眠记录。"},
+  "activity":{"dynamic_kcal":577,"steps":3578,"active_minutes":null,"stand_hours":8,"breaks":8,"breaks_goal":12,"as_of":"day_total","source":"Mi Fitness Stats screenshot provided 2026-08-31","notes":"8月28日Stats截图显示：Calories 577 kcal、Steps 3578/6000、Breaks 8/12。截图未显示Moving/active minutes，因此保持为空。"},
+  "sleep":{"duration_minutes":253,"efficiency_percent":98,"stages":[{"name":"REM","minutes":69,"percent":27},{"name":"浅睡","minutes":110,"percent":44},{"name":"深睡","minutes":74,"percent":29}],"wakeups":null,"awake_minutes":5,"avg_hr":62,"avg_respiration":16,"score":62,"bed_minutes":258,"sleep_onset_minutes":5,"time_in_bed_minutes":258,"sleep_latency_minutes":5,"source":"Mi Fitness sleep screenshot provided 2026-08-31","notes":"8月28日睡眠截图：总睡眠4小时13分，评分62（+12 vitality），睡眠效率98%；REM 1小时09分（27%）、浅睡1小时50分（44%）、深睡1小时14分（29%）；在床约4小时18分、入睡约5分钟；平均心率62 BPM、平均呼吸16次/分。"},
   "diet":[{"meal":"午餐","time":"13:45","name":"Member's Mark 番茄肉酱意面1份","quantity":"约357g（包装1/4份）","kcal_min":435,"kcal_max":435,"kcal_mid":435,"kcal_text":"≈435 kcal","estimate_rationale":"直接复用8/23同款产品的包装营养信息：511kJ/100g≈122kcal/100g；整包净含量约1428g、标示4人份，按1/4包装约357g计算。用户确认今天这一份与此前完全相同。"},{"meal":"午餐","time":"13:45","name":"煎蛋","quantity":"2个","kcal_min":140,"kcal_max":220,"kcal_mid":180,"estimate_rationale":"按2个鸡蛋并考虑煎制用油估算；用油量未知，因此保留区间。"}],
   "exercise":[],
   "body":{"bowel_movements":[{"time":"约10:51","description":"固体便1次，排便顺畅","bristol_estimate":null,"notes":"用户描述刚刚连续排便两次中的第一次；未提供更具体形状、颜色和量，因此不猜测 Bristol 类型。"},{"time":"约10:51","description":"稀便1次，排便顺畅","bristol_estimate":null,"notes":"用户描述刚刚连续排便两次中的第二次；未提供更具体稀软程度、颜色和量，因此不猜测 Bristol 类型。"}],"composition":{"time":"09:21","weight_kg":69.00,"bmi":null,"body_fat_percent":null,"muscle_mass":null,"source":"Mi Fitness weight history screenshot","notes":"8/28 09:21体重69.00kg；该历史列表未显示当次BMI、体脂率或肌肉量。"}},
-  "coach_notes":["约10:51连续排便2次：先固体便、后稀便，主观均较顺畅；暂记录观察，因缺少更具体性状不强行判定 Bristol 类型。","09:21体重69.00kg。","13:45吃Member's Mark番茄肉酱意面1份（复用8/23包装实值≈435 kcal）和煎蛋2个（估算≈140–220 kcal），本餐合计约575–655 kcal。"],
+  "coach_notes":["8月28日睡眠4小时13分，评分62，睡眠效率98%；REM 27%、浅睡44%、深睡29%。","8月28日全天动态消耗577 kcal、3578步、Breaks 8/12。","约10:51连续排便2次：先固体便、后稀便，主观均较顺畅；暂记录观察，因缺少更具体性状不强行判定 Bristol 类型。","09:21体重69.00kg。","13:45吃Member's Mark番茄肉酱意面1份（复用8/23包装实值≈435 kcal）和煎蛋2个（估算≈140–220 kcal），本餐合计约575–655 kcal。"],
   "meal_prep":{}
 }
