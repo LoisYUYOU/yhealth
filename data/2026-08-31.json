@@ -1,0 +1,11 @@
+{
+  "date":"2026-08-31",
+  "intake":{"kcal_min":0,"kcal_max":0,"kcal_mid":0,"as_of":"08:55","notes":"截至08:55尚未提供今日饮食记录。"},
+  "activity":{"dynamic_kcal":null,"steps":null,"active_minutes":null,"stand_hours":null,"as_of":"08:55","notes":"尚未提供今日运动/全天活动数据。"},
+  "sleep":{"duration_minutes":481,"efficiency_percent":97,"stages":[{"stage":"REM","minutes":111,"percent":23},{"stage":"Light","minutes":207,"percent":43},{"stage":"Deep","minutes":163,"percent":34}],"wakeups":null,"awake_minutes":null,"avg_hr":64,"avg_respiration":17,"score":85,"quality":"Good","time_in_bed_minutes":491,"sleep_latency_minutes":10,"notes":"Mi Fitness 8月31日睡眠截图：睡眠8小时1分钟，评分85，睡眠效率97%；REM 1小时51分（23%）、浅睡3小时27分（43%）、深睡2小时43分（34%）；在床8小时11分，入睡约10分钟，平均心率64 bpm，平均呼吸17次/分。"},
+  "diet":[],
+  "exercise":[],
+  "body":{"bowel_movements":[],"composition":{}},
+  "coach_notes":["8月31日睡眠8小时1分钟，评分85（Good），睡眠效率97%。","睡眠结构：REM 23%、浅睡43%、深睡34%；平均心率64 bpm，平均呼吸17次/分。"],
+  "meal_prep":{}
+}
