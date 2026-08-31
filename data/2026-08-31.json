@@ -1,14 +1,17 @@
 {
   "date":"2026-08-31",
   "intake":{"kcal_min":1950,"kcal_max":2640,"kcal_mid":2295,"as_of":"22:27","notes":"截至22:27已记录午餐和晚餐。午餐为整锅胡萝卜+茭白+卤鸡腿+米饭混合饭；晚餐根据照片记录为一大碗白米饭、青菜及约5–6块带骨红烧/卤炖猪肉（具体部位仅凭照片无法可靠确定，疑似排骨/脊骨类）。晚餐热量按照片分量估算，保留较宽区间。"},
-  "activity":{"dynamic_kcal":null,"steps":null,"active_minutes":null,"stand_hours":null,"as_of":"08:55","notes":"尚未提供今日运动/全天活动数据。"},
+  "activity":{"dynamic_kcal":1075,"steps":7981,"active_minutes":47,"stand_hours":11,"breaks":11,"breaks_goal":12,"as_of":"22:28","source":"Mi Fitness Health screenshot","notes":"8/31 22:28健康总览：动态消耗1075 kcal、7981步、Moving 47分钟、Breaks 11/12。动态消耗已包含单项运动热量，不与Core training或Modern dance重复相加。"},
   "sleep":{"duration_minutes":481,"efficiency_percent":97,"stages":[{"name":"REM","minutes":111,"percent":23},{"name":"浅睡","minutes":207,"percent":43},{"name":"深睡","minutes":163,"percent":34}],"wakeups":null,"awake_minutes":null,"avg_hr":64,"avg_respiration":17,"score":85,"quality":"Good","bed_minutes":491,"sleep_onset_minutes":10,"time_in_bed_minutes":491,"sleep_latency_minutes":10,"notes":"Mi Fitness 8月31日睡眠截图：睡眠8小时1分钟，评分85，睡眠效率97%；REM 1小时51分（23%）、浅睡3小时27分（43%）、深睡2小时43分（34%）；在床8小时11分，入睡约10分钟，平均心率64 bpm，平均呼吸17次/分。"},
   "diet":[
     {"meal":"午餐","time":"13:05-14:05","name":"胡萝卜+茭白+卤鸡腿+米饭混合饭","quantity":"整锅吃完；生米约150g、胡萝卜1根、茭白1根、卤鸡腿2个","kcal_min":970,"kcal_max":1230,"kcal_mid":1100,"estimate_rationale":"用户明确整锅米饭由约150g生米煮成。150g生米约520–550 kcal；卤鸡腿2个约360–500 kcal；胡萝卜+茭白约50–80 kcal；卤汁/油脂约40–100 kcal。合计约970–1230 kcal。"},
     {"meal":"晚餐","time":"22:27","name":"白米饭+青菜+带骨红烧/卤炖猪肉","quantity":"照片所示1份；白米饭约1大碗，青菜1份，带骨猪肉约5–6块","kcal_min":980,"kcal_max":1410,"kcal_mid":1195,"estimate_rationale":"根据两张现场照片估算。米饭约250–300g熟重≈290–350 kcal；青菜含酱汁/油约80–150 kcal；带骨猪肉约5–6块，因骨重、肥瘦和具体部位未知，估算可食部分及酱汁约610–910 kcal。具体肉类部位仅凭照片无法可靠确定，因此不强行写成排骨或脊骨。"}
   ],
-  "exercise":[],
+  "exercise":[
+    {"name":"Core training","time":"19:04","duration":"00:51:53","active_kcal":261,"total_kcal":338,"avg_hr_bpm":93,"max_hr_bpm":117,"aerobic_effect":0.5,"anaerobic_effect":0.0,"training_load":4,"recovery_hours":26,"source":"Mi Fitness / Xiaomi Smart Band 10 screenshot","notes":"心率区间：轻度27:36、强度0:19；有氧/无氧/VO2 max均为0:00。"},
+    {"name":"Modern dance","time":"19:56","duration":"00:57:49","active_kcal":292,"total_kcal":377,"avg_hr_bpm":124,"max_hr_bpm":159,"aerobic_effect":2.6,"anaerobic_effect":1.3,"training_load":43,"recovery_hours":38,"source":"Mi Fitness / Xiaomi Smart Band 10 screenshot","notes":"心率区间：轻度9:41、强度21:05、有氧20:23、无氧1:20、VO2 max 0:00。"}
+  ],
   "body":{"bowel_movements":[{"time":"09:00","description":"排便1次，未提供性状细节","bristol_estimate":null,"notes":"用户明确表示早上9点排便一次。"},{"time":"约11:45","description":"腹泻/稀便1次，正在发生","bristol_estimate":null,"notes":"用户描述现在正在窜稀；未提供颜色、量、是否水样等细节，因此不强行判定Bristol类型。"}],"composition":{}},
-  "coach_notes":["8月31日睡眠8小时1分钟，评分85（Good），睡眠效率97%。","睡眠结构：REM 23%、浅睡43%、深睡34%；平均心率64 bpm，平均呼吸17次/分。","09:00排便1次；约11:45出现腹泻/稀便1次，后续可观察频率、是否持续及有无腹痛、发热、血便等伴随情况。","15:42用户补充整锅仅使用约150g生米，因此午餐热量估算由此前按照片体积推测修正为约970–1230 kcal（中位约1100 kcal）。","22:27晚餐照片记录：一大碗白米饭、青菜及约5–6块带骨红烧/卤炖猪肉；晚餐暂估约980–1410 kcal。具体猪肉部位待用户确认。","截至22:27全天摄入暂估约1950–2640 kcal（中位约2295 kcal）。"],
+  "coach_notes":["8月31日睡眠8小时1分钟，评分85（Good），睡眠效率97%。","睡眠结构：REM 23%、浅睡43%、深睡34%；平均心率64 bpm，平均呼吸17次/分。","09:00排便1次；约11:45出现腹泻/稀便1次，后续可观察频率、是否持续及有无腹痛、发热、血便等伴随情况。","15:42用户补充整锅仅使用约150g生米，因此午餐热量估算由此前按照片体积推测修正为约970–1230 kcal（中位约1100 kcal）。","22:27晚餐照片记录：一大碗白米饭、青菜及约5–6块带骨红烧/卤炖猪肉；晚餐暂估约980–1410 kcal。具体猪肉部位待用户确认。","截至22:27全天摄入暂估约1950–2640 kcal（中位约2295 kcal）。","19:04 Core training 51分53秒：活动消耗261 kcal、总消耗338 kcal，平均心率93、最高117 BPM。","19:56 Modern dance 57分49秒：活动消耗292 kcal、总消耗377 kcal，平均心率124、最高159 BPM。","截至22:28全天动态消耗1075 kcal、7981步、Moving 47分钟、Breaks 11/12；单项运动热量不与动态消耗重复相加。"],
   "meal_prep":{}
 }
