@@ -1,7 +1,7 @@
 {
   "date":"2026-08-30",
   "intake":{"kcal_min":1650,"kcal_max":2250,"kcal_mid":1950,"as_of":"2026-08-31 08:55补记","notes":"8月31日早上补记8月30日晚餐/夜宵：胡萝卜炖鸡腿1根、筒骨4块、芝士蛋糕200g。此前已记录西瓜约1kg、卤鸡腿1个、煮鸡蛋2个。全部晚间食物因具体大小、可食肉量和蛋糕配方未知，保留估算区间。"},
-  "activity":{"dynamic_kcal":null,"steps":null,"active_minutes":null,"stand_hours":null,"as_of":"14:01","notes":"尚未提供8月30日运动/全天活动数据。"},
+  "activity":{"dynamic_kcal":432,"steps":1304,"active_minutes":null,"stand_hours":9,"as_of":"2026-08-31 09:32补记","notes":"Mi Fitness 8月30日 Stats截图显示：Calories 432 kcal、Steps 1304/6000、Breaks 9/12。按YHealth规则将Calories记录为8月30日动态消耗；截图未显示Moving/active minutes，因此不猜测。"},
   "sleep":{"duration_minutes":null,"efficiency_percent":null,"stages":[],"wakeups":null,"awake_minutes":null,"avg_hr":null,"avg_respiration":null,"notes":"尚未提供8月30日睡眠记录。"},
   "diet":[
     {"meal":"白天","time":"截至14:01","name":"西瓜","quantity":"约1kg（称重标签1015g）","kcal_min":290,"kcal_max":310,"kcal_mid":300,"estimate_rationale":"用户提供称重照片，标签显示1015g；按西瓜约30 kcal/100g估算。"},
@@ -13,6 +13,6 @@
   ],
   "exercise":[],
   "body":{"bowel_movements":[],"composition":{}},
-  "coach_notes":["用户更正西瓜摄入量：不是2kg，而是约1kg；称重照片标签显示1015g。","8月31日08:55补记8月30日晚间食物：胡萝卜炖鸡腿1根、筒骨4块、芝士蛋糕200g。","8月30日全天饮食暂估约1650–2250 kcal（中位约1950 kcal）。","8月30日运动状况尚未上传，待补充后再计算当天能量平衡。"],
+  "coach_notes":["用户更正西瓜摄入量：不是2kg，而是约1kg；称重照片标签显示1015g。","8月31日08:55补记8月30日晚间食物：胡萝卜炖鸡腿1根、筒骨4块、芝士蛋糕200g。","8月30日全天饮食暂估约1650–2250 kcal（中位约1950 kcal）。","8月31日09:32补记8月30日活动总览：动态消耗432 kcal、1304步、Breaks 9小时；未提供单项运动记录。","按基础代谢1318 kcal + 动态消耗432 kcal 粗略计算，8月30日总消耗约1750 kcal；对比摄入区间1650–2250 kcal，能量平衡约-100至+500 kcal，中位约+200 kcal。"],
   "meal_prep":{}
 }
