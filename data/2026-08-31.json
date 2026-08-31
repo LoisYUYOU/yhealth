@@ -5,7 +5,7 @@
   "sleep":{"duration_minutes":481,"efficiency_percent":97,"stages":[{"stage":"REM","minutes":111,"percent":23},{"stage":"Light","minutes":207,"percent":43},{"stage":"Deep","minutes":163,"percent":34}],"wakeups":null,"awake_minutes":null,"avg_hr":64,"avg_respiration":17,"score":85,"quality":"Good","time_in_bed_minutes":491,"sleep_latency_minutes":10,"notes":"Mi Fitness 8月31日睡眠截图：睡眠8小时1分钟，评分85，睡眠效率97%；REM 1小时51分（23%）、浅睡3小时27分（43%）、深睡2小时43分（34%）；在床8小时11分，入睡约10分钟，平均心率64 bpm，平均呼吸17次/分。"},
   "diet":[],
   "exercise":[],
-  "body":{"bowel_movements":[],"composition":{}},
-  "coach_notes":["8月31日睡眠8小时1分钟，评分85（Good），睡眠效率97%。","睡眠结构：REM 23%、浅睡43%、深睡34%；平均心率64 bpm，平均呼吸17次/分。"],
+  "body":{"bowel_movements":[{"time":"09:00","description":"排便1次，未提供性状细节","bristol_estimate":null,"notes":"用户明确表示早上9点排便一次。"},{"time":"约11:45","description":"腹泻/稀便1次，正在发生","bristol_estimate":null,"notes":"用户描述现在正在窜稀；未提供颜色、量、是否水样等细节，因此不强行判定Bristol类型。"}],"composition":{}},
+  "coach_notes":["8月31日睡眠8小时1分钟，评分85（Good），睡眠效率97%。","睡眠结构：REM 23%、浅睡43%、深睡34%；平均心率64 bpm，平均呼吸17次/分。","09:00排便1次；约11:45出现腹泻/稀便1次，后续可观察频率、是否持续及有无腹痛、发热、血便等伴随情况。"],
   "meal_prep":{}
 }
