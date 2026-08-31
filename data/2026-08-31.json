@@ -1,11 +1,11 @@
 {
   "date":"2026-08-31",
-  "intake":{"kcal_min":650,"kcal_max":820,"kcal_mid":735,"as_of":"13:05","notes":"截至13:05已记录午餐：胡萝卜1根、茭白1根、卤鸡腿2个、米饭约1碗，混合食用。热量按常见分量估算；卤鸡腿大小和带皮情况会造成较大波动。"},
+  "intake":{"kcal_min":880,"kcal_max":1250,"kcal_mid":1065,"as_of":"14:05","notes":"截至14:05已记录午餐。用户补充说明照片中锅里的胡萝卜+茭白+米饭混合物全部吃完，并非只吃普通一碗成品饭；同时包含此前说明的2个卤鸡腿。按整锅成品量重新估算，保留较宽区间。"},
   "activity":{"dynamic_kcal":null,"steps":null,"active_minutes":null,"stand_hours":null,"as_of":"08:55","notes":"尚未提供今日运动/全天活动数据。"},
   "sleep":{"duration_minutes":481,"efficiency_percent":97,"stages":[{"stage":"REM","minutes":111,"percent":23},{"stage":"Light","minutes":207,"percent":43},{"stage":"Deep","minutes":163,"percent":34}],"wakeups":null,"awake_minutes":null,"avg_hr":64,"avg_respiration":17,"score":85,"quality":"Good","time_in_bed_minutes":491,"sleep_latency_minutes":10,"notes":"Mi Fitness 8月31日睡眠截图：睡眠8小时1分钟，评分85，睡眠效率97%；REM 1小时51分（23%）、浅睡3小时27分（43%）、深睡2小时43分（34%）；在床8小时11分，入睡约10分钟，平均心率64 bpm，平均呼吸17次/分。"},
-  "diet":[{"meal":"午餐","time":"13:05","name":"胡萝卜+茭白+卤鸡腿+米饭混合饭","quantity":"胡萝卜1根、茭白1根、卤鸡腿2个、米饭约1碗","kcal_min":650,"kcal_max":820,"kcal_mid":735,"estimate_rationale":"按照片和用户描述估算：米饭约200–250g熟重≈230–290 kcal；卤鸡腿2个约360–500 kcal；胡萝卜和茭白合计约60–90 kcal。"}],
+  "diet":[{"meal":"午餐","time":"13:05-14:05","name":"胡萝卜+茭白+卤鸡腿+米饭混合饭","quantity":"整锅吃完；胡萝卜1根、茭白1根、卤鸡腿2个，米饭与蔬菜混合后为照片所示整锅成品","kcal_min":880,"kcal_max":1250,"kcal_mid":1065,"estimate_rationale":"用户补充明确整锅全部吃完。照片显示成品饭量明显高于此前按普通一碗估计，因此修正：熟米饭约350–500g≈400–580 kcal；卤鸡腿2个约360–500 kcal；胡萝卜+茭白约60–100 kcal；卤汁/油脂约60–120 kcal。因无法称重，保留宽区间。"}],
   "exercise":[],
   "body":{"bowel_movements":[{"time":"09:00","description":"排便1次，未提供性状细节","bristol_estimate":null,"notes":"用户明确表示早上9点排便一次。"},{"time":"约11:45","description":"腹泻/稀便1次，正在发生","bristol_estimate":null,"notes":"用户描述现在正在窜稀；未提供颜色、量、是否水样等细节，因此不强行判定Bristol类型。"}],"composition":{}},
-  "coach_notes":["8月31日睡眠8小时1分钟，评分85（Good），睡眠效率97%。","睡眠结构：REM 23%、浅睡43%、深睡34%；平均心率64 bpm，平均呼吸17次/分。","09:00排便1次；约11:45出现腹泻/稀便1次，后续可观察频率、是否持续及有无腹痛、发热、血便等伴随情况。","13:05午餐：胡萝卜1根、茭白1根、卤鸡腿2个、米饭约1碗，暂估650–820 kcal。"],
+  "coach_notes":["8月31日睡眠8小时1分钟，评分85（Good），睡眠效率97%。","睡眠结构：REM 23%、浅睡43%、深睡34%；平均心率64 bpm，平均呼吸17次/分。","09:00排便1次；约11:45出现腹泻/稀便1次，后续可观察频率、是否持续及有无腹痛、发热、血便等伴随情况。","午餐原先按普通一碗成品估算偏低；14:05用户明确说明照片中整锅全部吃完，现修正为约880–1250 kcal（中位约1065 kcal）。"],
   "meal_prep":{}
 }
