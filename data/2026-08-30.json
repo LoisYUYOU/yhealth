@@ -2,7 +2,7 @@
   "date":"2026-08-30",
   "intake":{"kcal_min":1650,"kcal_max":2250,"kcal_mid":1950,"as_of":"2026-08-31 08:55补记","notes":"8月31日早上补记8月30日晚餐/夜宵：胡萝卜炖鸡腿1根、筒骨4块、芝士蛋糕200g。此前已记录西瓜约1kg、卤鸡腿1个、煮鸡蛋2个。全部晚间食物因具体大小、可食肉量和蛋糕配方未知，保留估算区间。"},
   "activity":{"dynamic_kcal":432,"steps":1304,"active_minutes":null,"stand_hours":9,"as_of":"2026-08-31 09:32补记","notes":"Mi Fitness 8月30日 Stats截图显示：Calories 432 kcal、Steps 1304/6000、Breaks 9/12。按YHealth规则将Calories记录为8月30日动态消耗；截图未显示Moving/active minutes，因此不猜测。"},
-  "sleep":{"duration_minutes":null,"efficiency_percent":null,"stages":[],"wakeups":null,"awake_minutes":null,"avg_hr":null,"avg_respiration":null,"notes":"尚未提供8月30日睡眠记录。"},
+  "sleep":{"duration_minutes":392,"efficiency_percent":95,"stages":[{"name":"REM","minutes":91,"percent":23},{"name":"浅睡","minutes":171,"percent":44},{"name":"深睡","minutes":130,"percent":33}],"wakeups":2,"awake_minutes":7,"avg_hr":73,"avg_respiration":17,"score":69,"bed_minutes":411,"sleep_onset_minutes":12,"time_in_bed_minutes":411,"sleep_latency_minutes":12,"source":"Mi Fitness sleep screenshot provided 2026-08-31","notes":"8月30日睡眠截图：总睡眠6小时32分，评分69；REM 1小时31分（23%）、浅睡2小时51分（44%）、深睡2小时10分（33%）；醒来2次，清醒约7分钟；睡眠效率95%；在床约6小时51分、入睡约12分钟；截图显示平均心率约73 BPM、平均呼吸约17次/分。"},
   "diet":[
     {"meal":"白天","time":"截至14:01","name":"西瓜","quantity":"约1kg（称重标签1015g）","kcal_min":290,"kcal_max":310,"kcal_mid":300,"estimate_rationale":"用户提供称重照片，标签显示1015g；按西瓜约30 kcal/100g估算。"},
     {"meal":"白天","time":"截至14:01","name":"卤鸡腿","quantity":"1个","kcal_min":180,"kcal_max":270,"kcal_mid":225,"estimate_rationale":"按普通带皮卤鸡腿估算；实际大小、可食部和卤汁含糖/油量未知。"},
@@ -13,6 +13,6 @@
   ],
   "exercise":[],
   "body":{"bowel_movements":[],"composition":{}},
-  "coach_notes":["用户更正西瓜摄入量：不是2kg，而是约1kg；称重照片标签显示1015g。","8月31日08:55补记8月30日晚间食物：胡萝卜炖鸡腿1根、筒骨4块、芝士蛋糕200g。","8月30日全天饮食暂估约1650–2250 kcal（中位约1950 kcal）。","8月31日09:32补记8月30日活动总览：动态消耗432 kcal、1304步、Breaks 9小时；未提供单项运动记录。","按基础代谢1318 kcal + 动态消耗432 kcal 粗略计算，8月30日总消耗约1750 kcal；对比摄入区间1650–2250 kcal，能量平衡约-100至+500 kcal，中位约+200 kcal。"],
+  "coach_notes":["8月30日睡眠6小时32分，评分69，睡眠效率95%；REM 23%、浅睡44%、深睡33%，醒来2次。","用户更正西瓜摄入量：不是2kg，而是约1kg；称重照片标签显示1015g。","8月31日08:55补记8月30日晚间食物：胡萝卜炖鸡腿1根、筒骨4块、芝士蛋糕200g。","8月30日全天饮食暂估约1650–2250 kcal（中位约1950 kcal）。","8月31日09:32补记8月30日活动总览：动态消耗432 kcal、1304步、Breaks 9小时；未提供单项运动记录。","按基础代谢1318 kcal + 动态消耗432 kcal 粗略计算，8月30日总消耗约1750 kcal；对比摄入区间1650–2250 kcal，能量平衡约-100至+500 kcal，中位约+200 kcal。"],
   "meal_prep":{}
 }
