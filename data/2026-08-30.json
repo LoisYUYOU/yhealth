@@ -1,15 +1,18 @@
 {
   "date":"2026-08-30",
-  "intake":{"kcal_min":620,"kcal_max":740,"kcal_mid":680,"as_of":"14:01","notes":"截至14:01已记录：西瓜约1kg、卤鸡腿1个、煮鸡蛋2个。用户随后用称重照片更正西瓜为约1kg（标签1015g）；鸡腿因大小和卤汁/带皮情况未知保留估算区间。"},
-  "activity":{"dynamic_kcal":null,"steps":null,"active_minutes":null,"stand_hours":null,"as_of":"14:01","notes":"尚未提供今日运动/全天活动数据。"},
-  "sleep":{"duration_minutes":null,"efficiency_percent":null,"stages":[],"wakeups":null,"awake_minutes":null,"avg_hr":null,"avg_respiration":null,"notes":"尚未提供今日睡眠记录。"},
+  "intake":{"kcal_min":1650,"kcal_max":2250,"kcal_mid":1950,"as_of":"2026-08-31 08:55补记","notes":"8月31日早上补记8月30日晚餐/夜宵：胡萝卜炖鸡腿1根、筒骨4块、芝士蛋糕200g。此前已记录西瓜约1kg、卤鸡腿1个、煮鸡蛋2个。全部晚间食物因具体大小、可食肉量和蛋糕配方未知，保留估算区间。"},
+  "activity":{"dynamic_kcal":null,"steps":null,"active_minutes":null,"stand_hours":null,"as_of":"14:01","notes":"尚未提供8月30日运动/全天活动数据。"},
+  "sleep":{"duration_minutes":null,"efficiency_percent":null,"stages":[],"wakeups":null,"awake_minutes":null,"avg_hr":null,"avg_respiration":null,"notes":"尚未提供8月30日睡眠记录。"},
   "diet":[
     {"meal":"白天","time":"截至14:01","name":"西瓜","quantity":"约1kg（称重标签1015g）","kcal_min":290,"kcal_max":310,"kcal_mid":300,"estimate_rationale":"用户提供称重照片，标签显示1015g；按西瓜约30 kcal/100g估算。"},
     {"meal":"白天","time":"截至14:01","name":"卤鸡腿","quantity":"1个","kcal_min":180,"kcal_max":270,"kcal_mid":225,"estimate_rationale":"按普通带皮卤鸡腿估算；实际大小、可食部和卤汁含糖/油量未知。"},
-    {"meal":"白天","time":"截至14:01","name":"煮鸡蛋","quantity":"2个","kcal_min":150,"kcal_max":160,"kcal_mid":155,"estimate_rationale":"按普通鸡蛋约75–80 kcal/个估算。"}
+    {"meal":"白天","time":"截至14:01","name":"煮鸡蛋","quantity":"2个","kcal_min":150,"kcal_max":160,"kcal_mid":155,"estimate_rationale":"按普通鸡蛋约75–80 kcal/个估算。"},
+    {"meal":"晚餐/夜宵","time":"晚上","name":"胡萝卜炖鸡腿","quantity":"鸡腿1根（含少量胡萝卜/炖汁）","kcal_min":180,"kcal_max":260,"kcal_mid":220,"estimate_rationale":"按普通带皮炖鸡腿估算；胡萝卜和炖汁摄入量未明确，因此只计少量附带热量。"},
+    {"meal":"晚餐/夜宵","time":"晚上","name":"筒骨","quantity":"4块","kcal_min":250,"kcal_max":450,"kcal_mid":350,"estimate_rationale":"筒骨骨重占比高，实际可食肉、骨髓和脂肪量差异很大，因此采用较宽区间。"},
+    {"meal":"晚餐/夜宵","time":"晚上","name":"芝士蛋糕","quantity":"200g","kcal_min":600,"kcal_max":800,"kcal_mid":700,"estimate_rationale":"按常见芝士蛋糕约300–400 kcal/100g估算；具体品牌和配方未知。"}
   ],
   "exercise":[],
   "body":{"bowel_movements":[],"composition":{}},
-  "coach_notes":["用户更正西瓜摄入量：不是2kg，而是约1kg；称重照片标签显示1015g。","截至14:01饮食暂估约620–740 kcal（中位约680 kcal）。","今日运动状况尚未上传，待补充后再计算当天能量平衡。"],
+  "coach_notes":["用户更正西瓜摄入量：不是2kg，而是约1kg；称重照片标签显示1015g。","8月31日08:55补记8月30日晚间食物：胡萝卜炖鸡腿1根、筒骨4块、芝士蛋糕200g。","8月30日全天饮食暂估约1650–2250 kcal（中位约1950 kcal）。","8月30日运动状况尚未上传，待补充后再计算当天能量平衡。"],
   "meal_prep":{}
 }
