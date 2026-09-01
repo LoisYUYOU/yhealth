@@ -1,11 +1,16 @@
 {
   "date":"2026-09-01",
-  "intake":{"kcal_min":0,"kcal_max":0,"kcal_mid":0,"as_of":"09:13","notes":"截至09:13尚未提供今日饮食记录。"},
+  "intake":{"kcal_min":720,"kcal_max":980,"kcal_mid":850,"as_of":"午餐后","notes":"截至午餐后已记录：生菜、米饭、卤鸡腿1个、糖醋小排5块。米饭和生菜未提供克重，按常见一餐分量估算；糖醋小排受骨重、肥瘦和糖醋汁影响较大，保留较宽区间。"},
   "activity":{"dynamic_kcal":null,"steps":null,"active_minutes":null,"stand_hours":null,"as_of":"09:13","notes":"截至09:13尚未提供今日运动/全天活动数据。"},
   "sleep":{"duration_minutes":392,"efficiency_percent":97,"stages":[{"name":"REM","minutes":98,"percent":25},{"name":"浅睡","minutes":172,"percent":44},{"name":"深睡","minutes":122,"percent":31}],"wakeups":1,"awake_minutes":1,"avg_hr":63,"avg_respiration":17,"score":76,"quality":"Fair","bed_minutes":401,"sleep_onset_minutes":8,"time_in_bed_minutes":401,"sleep_latency_minutes":8,"source":"Mi Fitness sleep screenshot","notes":"2026-09-01睡眠截图：总睡眠6小时32分，评分76；REM 1小时38分（25%）、浅睡2小时52分（44%）、深睡2小时02分（31%）；睡眠效率97%，醒来1次、清醒约1分钟；在床约6小时41分，入睡约8分钟；平均心率63 BPM、平均呼吸17次/分。"},
-  "diet":[],
+  "diet":[
+    {"meal":"午餐","time":"中午","name":"生菜","quantity":"1份","kcal_min":15,"kcal_max":40,"kcal_mid":28,"estimate_rationale":"未提供克重和烹饪方式；按一份生菜并考虑少量调味估算。"},
+    {"meal":"午餐","time":"中午","name":"米饭","quantity":"1份","kcal_min":230,"kcal_max":320,"kcal_mid":275,"estimate_rationale":"未提供克重；按常见一餐熟米饭约200–275g估算。"},
+    {"meal":"午餐","time":"中午","name":"卤鸡腿","quantity":"1个","kcal_min":180,"kcal_max":270,"kcal_mid":225,"estimate_rationale":"按普通带皮卤鸡腿估算；实际大小、可食部和卤汁含油/糖量未知。"},
+    {"meal":"午餐","time":"中午","name":"糖醋小排","quantity":"5块","kcal_min":295,"kcal_max":350,"kcal_mid":323,"estimate_rationale":"按5块小排骨可食肉量及糖醋汁估算；骨重、肥瘦和挂汁量会造成误差。"}
+  ],
   "exercise":[],
   "body":{"bowel_movements":[],"composition":{}},
-  "coach_notes":["9月1日睡眠6小时32分，评分76，睡眠效率97%。","睡眠结构：REM 25%、浅睡44%、深睡31%；醒来1次，清醒约1分钟。","平均心率63 BPM，平均呼吸17次/分。"],
+  "coach_notes":["9月1日睡眠6小时32分，评分76，睡眠效率97%。","睡眠结构：REM 25%、浅睡44%、深睡31%；醒来1次，清醒约1分钟。","平均心率63 BPM，平均呼吸17次/分。","午餐：生菜、米饭、卤鸡腿1个、糖醋小排5块，暂估约720–980 kcal。"],
   "meal_prep":{}
 }
