@@ -1,0 +1,11 @@
+{
+  "date":"2026-09-01",
+  "intake":{"kcal_min":0,"kcal_max":0,"kcal_mid":0,"as_of":"09:13","notes":"截至09:13尚未提供今日饮食记录。"},
+  "activity":{"dynamic_kcal":null,"steps":null,"active_minutes":null,"stand_hours":null,"as_of":"09:13","notes":"截至09:13尚未提供今日运动/全天活动数据。"},
+  "sleep":{"duration_minutes":392,"efficiency_percent":97,"stages":[{"name":"REM","minutes":98,"percent":25},{"name":"浅睡","minutes":172,"percent":44},{"name":"深睡","minutes":122,"percent":31}],"wakeups":1,"awake_minutes":1,"avg_hr":63,"avg_respiration":17,"score":76,"quality":"Fair","bed_minutes":401,"sleep_onset_minutes":8,"time_in_bed_minutes":401,"sleep_latency_minutes":8,"source":"Mi Fitness sleep screenshot","notes":"2026-09-01睡眠截图：总睡眠6小时32分，评分76；REM 1小时38分（25%）、浅睡2小时52分（44%）、深睡2小时02分（31%）；睡眠效率97%，醒来1次、清醒约1分钟；在床约6小时41分，入睡约8分钟；平均心率63 BPM、平均呼吸17次/分。"},
+  "diet":[],
+  "exercise":[],
+  "body":{"bowel_movements":[],"composition":{}},
+  "coach_notes":["9月1日睡眠6小时32分，评分76，睡眠效率97%。","睡眠结构：REM 25%、浅睡44%、深睡31%；醒来1次，清醒约1分钟。","平均心率63 BPM，平均呼吸17次/分。"],
+  "meal_prep":{}
+}
