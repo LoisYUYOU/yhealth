@@ -3,7 +3,7 @@
 This file is the durable source of truth for updating YHealth from ChatGPT conversations.
 
 ## Trigger
-Whenever the user says things like “记到 YHealth / 写入 / 记录一下”, or sends diet, sleep, activity, exercise, weight/body-fat, menstrual, bowel-movement, or other health data intended for YHealth, follow this SOP.
+Whenever the user says things like “记到 YHealth / 写入 / 记录一下”, or sends diet, sleep, activity, exercise, weight/body-fat, menstrual, bowel-movement, finance/spending, or other health/life data intended for YHealth, follow this SOP.
 
 ## Required workflow
 1. Resolve the exact calendar date first. Convert “今天 / 昨天 / 前天” to an explicit YYYY-MM-DD based on the conversation timestamp and user wording. If the user explicitly corrects the date, the correction wins.
@@ -17,11 +17,15 @@ Whenever the user says things like “记到 YHealth / 写入 / 记录一下”,
 9. Body specialty rendering: whenever a weight or body-composition record is added, verify that the `身体` tab shows the `体重专项` card for that date. The card should show weight prominently, measurement time, BMI, body-fat percentage and muscle mass when available, plus a weight trend generated from all dates that contain `body.composition.weight_kg`. The overview page should also show the current day's weight when available.
 10. Calorie balance specialty: the overview must show `当天热量差 = 总消耗 - 摄入`. Total burn means `dynamic_kcal + resting_kcal`. If the daily activity source provides an explicit resting/non-dynamic calorie value, store it as `activity.resting_kcal` and use that value. Otherwise use `profile.energy_model.resting_kcal_daily` as the current estimate. Never use dynamic calories alone for the calorie-balance card. Because intake is often an estimate range, show the calorie-balance range as `[total_burn - intake_max, total_burn - intake_min]`; if intake is exact, show one value. Positive means estimated deficit, negative means estimated surplus. The card must also display the total-burn breakdown so the user can see resting + dynamic calories.
 11. Ensure `data/profile.json` includes the date in `available_dates`. A valid daily JSON file that is absent from `available_dates` is considered an incomplete sync.
-12. Validate frontend compatibility after each write. Check required nested objects and rendering assumptions in `index.html`; missing optional data must not crash the whole date page. Specifically verify diet, sleep, activity, exercise, calorie balance, body composition, bowel movements and coach notes render without `undefined`, `null` text leakage or invalid property access.
-13. Re-read the written daily JSON after commit and verify at minimum: date, intake, diet, sleep, activity, exercise, body, and coach notes. Confirm no accidental loss, duplicate calorie counting, stale typo, `undefined`, or invalid null access.
-14. If the data schema adds a new project/specialty that the frontend does not render yet (for example weight/body composition or calorie balance), update `index.html` as part of the same task. A data-only write is incomplete when the user expects to see the data on the webpage.
+12. Validate frontend compatibility after each write. Check required nested objects and rendering assumptions in `index.html`; missing optional data must not crash the whole date page. Specifically verify diet, sleep, activity, exercise, calorie balance, body composition, bowel movements, finance and coach notes render without `undefined`, `null` text leakage or invalid property access.
+13. Re-read the written daily JSON after commit and verify at minimum: date, intake, diet, sleep, activity, exercise, body, finance, and coach notes. Confirm no accidental loss, duplicate calorie counting, duplicate spending, stale typo, `undefined`, or invalid null access.
+14. If the data schema adds a new project/specialty that the frontend does not render yet (for example weight/body composition, calorie balance, or finance), update `index.html` as part of the same task when the user expects to see the data on the webpage. A data-only write is incomplete in that case.
 15. After changing `index.html`, verify the page still supports all existing dates and both canonical and historical field names where needed. New frontend logic must be null-safe so partial daily records can load.
-16. A sync is only complete when both the GitHub data and the webpage are expected to load for that date. “File written successfully” alone is not completion.
+16. A sync is only complete when both the GitHub data and the webpage are expected to load for that date when the requested feature is user-visible. “File written successfully” alone is not completion.
+17. Finance: record each spending event separately under `finance.expenses`. Canonical fields are `time`, `name`, `amount`, `owner`, `category`, `merchant`, `payment_method`, and `notes`. Daily summary fields are `currency`, `expense_total`, `baby_total`, `demon_total`, `public_funds_total`, and optional `notes`.
+18. Finance accounting rule: credit-card purchases are counted on the purchase date as money already spent; do not wait until repayment day and do not count the same purchase again when the credit-card bill is repaid.
+19. Finance owner rule: `徐宝宝` means normal life and reasonable self-care/maintenance spending; `鱼油大魔王` means discretionary wants, hobbies, gear and non-essential large purchases; `公款` means company/work advances and reimbursable costs. Public-fund spending is tracked for cash-flow visibility but excluded from personal-consumption totals.
+20. Finance corrections follow the same precedence rules as health data. If a merchant, category, amount, owner, reimbursement status, or payment method is corrected later, replace the mistaken classification rather than appending a duplicate transaction.
 
 ## Body / weight project update checklist
 When the user sends a scale screenshot or body-composition data:
@@ -50,11 +54,23 @@ When the user records a bowel movement:
 6. Do not persist a duplicated derived balance unless needed; prefer deriving it in the frontend from source fields so later intake/activity corrections update automatically.
 7. Whenever the resting-energy model changes, update `profile.energy_model` and the SOP together, and make the estimate/method visible enough that it is not confused with device-measured calories.
 
+## Finance project checklist
+When the user sends a payment screenshot or tells ChatGPT what they spent:
+1. Resolve the transaction date and time. For real-time purchases, use the local message/screenshot time when visible; if only the date is known, leave time unknown rather than inventing one.
+2. Read the existing day JSON and merge into `finance.expenses`; do not overwrite health data or prior finance entries.
+3. Deduplicate by date/time + amount + merchant/name when possible. Credit-card repayment is not a second purchase and must not be double-counted.
+4. Classify the transaction into `owner` and `category` using user-established rules. User corrections always override the prior classification.
+5. Recalculate `expense_total`, `baby_total`, `demon_total`, and `public_funds_total` after every finance change.
+6. Work expenses such as reimbursable AI/token/server charges are `公款`; keep them visible for cash-flow tracking but separate from personal lifestyle spending.
+7. Re-read the daily JSON after commit and verify transaction count, amounts and summary totals.
+8. If the user asks to see finance on the YHealth webpage, add/verify a finance view in `index.html` before declaring the feature complete.
+
 ## Precedence rules
 - Explicit user correction > later user clarification > screenshot reading > earlier estimate.
 - Screenshot data > guesswork.
 - Unknown data stays unknown; do not fabricate precision.
 - Daily dynamic calories already include exercise unless the source explicitly says otherwise. Exercise calories are detail-only and must not be added again to the daily total.
+- Finance repayment/transfers must not be mistaken for new consumption when they merely settle a previously recorded purchase or reimbursable advance.
 
 ## Final confirmation format
 Only after validation, tell the user that the date has been synced and checked. Mention any still-missing source data explicitly.
