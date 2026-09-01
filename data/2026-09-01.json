@@ -17,6 +17,18 @@
     {"name":"Cardio combat","time":"19:40","duration":"01:14:36","active_kcal":371,"total_kcal":482,"avg_hr_bpm":142,"max_hr_bpm":186,"aerobic_effect":3.8,"anaerobic_effect":1.9,"training_load":111,"recovery_hours":72,"source":"Mi Fitness / Xiaomi Smart Band 10 screenshot","notes":"9/1/2026 19:40；心率区间截图：Light 6:13、Intensive 14:08、Aerobic 28:39、Anaerobic 19:41、VO2 max 5:43。"}
   ],
   "body":{"bowel_movements":[],"composition":{}},
-  "coach_notes":["9月1日睡眠6小时32分，评分76，睡眠效率97%。","睡眠结构：REM 25%、浅睡44%、深睡31%；醒来1次，清醒约1分钟。","平均心率63 BPM，平均呼吸17次/分。","10:29已实际吃完此前计划午餐：生菜、米饭、卤鸡腿1个、糖醋小排5块，暂估约720–980 kcal。","约21:54晚餐：发糕2块、胡萝卜茭白米饭1碗、五花肉炒杏鲍菇1份，暂估约1150–1600 kcal；当日累计约1870–2580 kcal。","今日专项运动：户外跑步2.39 km / 21:47（活动132 kcal，平均心率158，最高189）和19:40 Cardio combat 1:14:36（活动371 kcal，平均心率142，最高186）。","截至21:58全天动态消耗1063 kcal、11583步、Moving 102分钟、Breaks 11/12。按基础代谢1318 kcal估算，总消耗约2381 kcal；对比摄入区间1870–2580 kcal，当天热量差约-199至+511 kcal。"] ,
+  "finance":{
+    "currency":"CNY",
+    "expense_total":17.40,
+    "baby_total":17.40,
+    "demon_total":0.00,
+    "public_funds_total":0.00,
+    "expenses":[
+      {"time":"19:02","name":"花露水","amount":11.50,"owner":"徐宝宝","category":"日用品","merchant":"赛银超市","payment_method":"ICBC Credit Card 7146","notes":"正常生活用品。信用卡消费按发生日视为已花，计入当日个人消费。"},
+      {"time":"19:25","name":"外星人白桃电解质饮料","amount":5.90,"owner":"徐宝宝","category":"饮食","merchant":"赛银超市","payment_method":"ICBC Credit Card 7146","notes":"正常饮水/饮料支出。信用卡消费按发生日视为已花，计入当日个人消费。"}
+    ],
+    "notes":"财务记录从2026-09-01开始纳入YHealth。徐宝宝=正常生活与被照顾所需；鱼油大魔王=欲望/兴趣/装备等非必要消费；公款=公司工作垫款与报销资金，不计入个人消费。"
+  },
+  "coach_notes":["9月1日睡眠6小时32分，评分76，睡眠效率97%。","睡眠结构：REM 25%、浅睡44%、深睡31%；醒来1次，清醒约1分钟。","平均心率63 BPM，平均呼吸17次/分。","10:29已实际吃完此前计划午餐：生菜、米饭、卤鸡腿1个、糖醋小排5块，暂估约720–980 kcal。","约21:54晚餐：发糕2块、胡萝卜茭白米饭1碗、五花肉炒杏鲍菇1份，暂估约1150–1600 kcal；当日累计约1870–2580 kcal。","今日专项运动：户外跑步2.39 km / 21:47（活动132 kcal，平均心率158，最高189）和19:40 Cardio combat 1:14:36（活动371 kcal，平均心率142，最高186）。","截至21:58全天动态消耗1063 kcal、11583步、Moving 102分钟、Breaks 11/12。按基础代谢1318 kcal估算，总消耗约2381 kcal；对比摄入区间1870–2580 kcal，当天热量差约-199至+511 kcal。","今日财务已记录：花露水11.50元、外星人白桃电解质饮料5.90元；合计17.40元，均归徐宝宝正常生活消费。"] ,
   "meal_prep":{}
 }
