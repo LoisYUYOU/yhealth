@@ -2,7 +2,7 @@
   "date":"2026-08-29",
   "intake":{"kcal_min":2625,"kcal_max":3500,"kcal_mid":3063,"as_of":"22:58","notes":"截至22:58已记录：新疆烤包子1个、新疆馕约1/2个、17:00左右一餐（米饭吃完、茭白、4块瘦肉，其余菜未吃）、榴莲完整一盒约180–230g可食果肉，以及KFC晚餐/夜宵（避风塘大虾塔可1、薯条小1、百事无糖可乐中冰1、生炸大鸡腿甜辣孜然1串、甜辣喷醋生炸大鸡架8块）。全部热量均为估算区间；无糖可乐按接近0 kcal处理。"},
   "activity":{"dynamic_kcal":4419,"steps":9245,"active_minutes":466,"stand_hours":13,"as_of":"22:49","notes":"Mi Fitness Health截图：Calories 4419 kcal、Steps 9245、Breaks 13/12 hours、Moving 466 mins。按YHealth规则将Calories记录为当日动态消耗；用户另明确表示今日骑行总里程140 km。"},
-  "sleep":{"duration_minutes":457,"efficiency_percent":null,"stages":[],"wakeups":null,"awake_minutes":null,"avg_hr":null,"avg_respiration":null,"quality":"Fair","notes":"Mi Fitness Health截图显示8月29日睡眠7小时37分钟，评级Fair。"},
+  "sleep":{"duration_minutes":457,"efficiency_percent":92,"stages":[{"name":"REM","minutes":124,"percent":27},{"name":"浅睡","minutes":173,"percent":38},{"name":"深睡","minutes":160,"percent":35}],"wakeups":1,"awake_minutes":30,"avg_hr":66,"avg_respiration":17,"score":77,"quality":"Fair","bed_minutes":492,"sleep_onset_minutes":5,"time_in_bed_minutes":492,"sleep_latency_minutes":5,"source":"Mi Fitness sleep detail screenshot","notes":"8月29日睡眠详情截图：总睡眠7小时37分，评分77（+15 vitality），效率92%；REM 2小时04分（27%）、浅睡2小时53分（38%）、深睡2小时40分（35%）；醒来1次，清醒约30分钟；在床约8小时12分，入睡约5分钟；平均心率66 BPM、平均呼吸17次/分。该详细截图补全并替代此前仅有的7小时37分/Fair简略记录。"},
   "diet":[
     {"meal":"午餐前后","time":"11:39","name":"新疆烤包子","quantity":"1个，目测约120–150g","kcal_min":300,"kcal_max":380,"kcal_mid":340,"estimate_rationale":"按照片中较大号羊肉/洋葱馅新疆烤包子估算。"},
     {"meal":"午餐","time":null,"name":"新疆馕","quantity":"约1/2个","kcal_min":300,"kcal_max":450,"kcal_mid":375,"estimate_rationale":"用户明确吃了一半；按普通较大新疆馕估算，实际受尺寸和配方影响较大。"},
@@ -11,11 +11,11 @@
     {"meal":"晚餐/夜宵","time":"约22:52","name":"KFC：避风塘大虾塔可+小薯条+无糖可乐+生炸大鸡腿+甜辣喷醋生炸大鸡架8块","quantity":"整单","kcal_min":1300,"kcal_max":1700,"kcal_mid":1500,"estimate_rationale":"依据订单截图和常见分量粗估；鸡腿/鸡架裹粉、吸油量波动较大，无糖可乐按接近0 kcal。"}
   ],
   "exercise":[
-    {"type":"户外骑行","distance_km":99.58,"duration":"06:07:05","active_kcal":3558,"total_kcal":4565,"avg_hr_bpm":149,"max_hr_bpm":189,"avg_speed_kmh":16.3,"source":"Mi Fitness workout screenshot"},
-    {"type":"户外骑行","distance_km":26.55,"duration":"01:48:55","active_kcal":869,"total_kcal":1077,"avg_hr_bpm":143,"max_hr_bpm":174,"avg_speed_kmh":14.6,"source":"Mi Fitness workout screenshot"},
-    {"type":"户外骑行汇总","distance_km":140,"duration":null,"active_kcal":null,"total_kcal":null,"notes":"用户明确表示今天总骑行140 km。两张运动截图可核实里程合计126.13 km，剩余约13.87 km未提供单独截图，因此不虚构对应时长和热量。"}
+    {"name":"户外骑行","type":"户外骑行","distance_km":99.58,"duration":"06:07:05","active_kcal":3558,"total_kcal":4565,"avg_hr_bpm":149,"max_hr_bpm":189,"avg_speed_kmh":16.3,"source":"Mi Fitness workout screenshot"},
+    {"name":"户外骑行","type":"户外骑行","distance_km":26.55,"duration":"01:48:55","active_kcal":869,"total_kcal":1077,"avg_hr_bpm":143,"max_hr_bpm":174,"avg_speed_kmh":14.6,"source":"Mi Fitness workout screenshot"},
+    {"name":"户外骑行汇总","type":"户外骑行汇总","distance_km":140,"duration":null,"active_kcal":null,"total_kcal":null,"avg_hr_bpm":null,"max_hr_bpm":null,"notes":"用户明确表示今天总骑行140 km。两张运动截图可核实里程合计126.13 km，剩余约13.87 km未提供单独截图，因此不虚构对应时长和热量。"}
   ],
   "body":{"bowel_movements":[],"composition":{}},
-  "coach_notes":["今天为超长距离骑行日：用户报告总骑行140 km；已提供的两段截图共126.13 km、7小时56分左右。","截至22:49，Mi Fitness显示动态消耗4419 kcal、9245步、移动466分钟、活动打断13小时。","睡眠7小时37分钟，评级Fair。","17:00左右补记一餐：米饭吃完，吃了茭白和4块瘦肉，同盘其他菜未吃；估算约460–630 kcal。","用户补充完整榴莲照片后，将榴莲修正为约180–230g、约265–340 kcal。","截至22:58已记录饮食约2625–3500 kcal（中位约3063 kcal）；今日摄入与高运动负荷应结合恢复需求一起看。"],
+  "coach_notes":["今天为超长距离骑行日：用户报告总骑行140 km；已提供的两段截图共126.13 km、7小时56分左右。","截至22:49，Mi Fitness显示动态消耗4419 kcal、9245步、移动466分钟、活动打断13小时。","8月29日睡眠7小时37分钟，评分77，效率92%；REM 27%、浅睡38%、深睡35%，醒来1次、清醒约30分钟。","17:00左右补记一餐：米饭吃完，吃了茭白和4块瘦肉，同盘其他菜未吃；估算约460–630 kcal。","用户补充完整榴莲照片后，将榴莲修正为约180–230g、约265–340 kcal。","截至22:58已记录饮食约2625–3500 kcal（中位约3063 kcal）；今日摄入与高运动负荷应结合恢复需求一起看。"],
   "meal_prep":{}
 }
