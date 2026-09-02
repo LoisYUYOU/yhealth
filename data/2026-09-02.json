@@ -1,0 +1,23 @@
+{
+  "date":"2026-09-02",
+  "intake":{"kcal_min":null,"kcal_max":null,"kcal_mid":null,"as_of":null,"notes":""},
+  "activity":{},
+  "sleep":{},
+  "diet":[],
+  "exercise":[],
+  "body":{"bowel_movements":[],"composition":{}},
+  "finance":{
+    "currency":"CNY",
+    "expense_total":120.48,
+    "baby_total":0.00,
+    "demon_total":120.48,
+    "public_funds_total":0.00,
+    "expenses":[
+      {"time":"10:14","name":"签证费","amount":119.48,"owner":"鱼油大魔王","category":"证件/出行","merchant":"杭州市余杭区财政局","payment_method":"ICBC Credit Card 7146","notes":"截图显示实付119.48元（优惠0.52元）；按实际支付金额记录。"},
+      {"time":"19:24","name":"纸","amount":1.00,"owner":"鱼油大魔王","category":"日用品","merchant":"Tony wu","payment_method":"CCB Debit Card","notes":"用户描述为买了一包纸。"}
+    ],
+    "notes":"今日截至19:29共记录2笔个人消费，合计120.48元。"
+  },
+  "coach_notes":[],
+  "meal_prep":{}
+}
