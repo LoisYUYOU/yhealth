@@ -8,15 +8,16 @@
   "body":{"bowel_movements":[],"composition":{}},
   "finance":{
     "currency":"CNY",
-    "expense_total":120.48,
+    "expense_total":132.12,
     "baby_total":0.00,
-    "demon_total":120.48,
+    "demon_total":132.12,
     "public_funds_total":0.00,
     "expenses":[
       {"time":"10:14","name":"签证费","amount":119.48,"owner":"鱼油大魔王","category":"证件/出行","merchant":"杭州市余杭区财政局","payment_method":"ICBC Credit Card 7146","notes":"截图显示实付119.48元（优惠0.52元）；按实际支付金额记录。"},
-      {"time":"19:24","name":"纸","amount":1.00,"owner":"鱼油大魔王","category":"日用品","merchant":"Tony wu","payment_method":"CCB Debit Card","notes":"用户描述为买了一包纸。"}
+      {"time":"19:24","name":"纸","amount":1.00,"owner":"鱼油大魔王","category":"日用品","merchant":"Tony wu","payment_method":"CCB Debit Card","notes":"用户描述为买了一包纸。"},
+      {"time":"20:28","name":"丝瓜2根 + 元气森林1瓶","amount":11.64,"owner":"鱼油大魔王","category":"买菜/饮品","merchant":"赛银超市","payment_method":"ICBC Credit Card","notes":"用户描述：两根丝瓜、一瓶元气森林；截图显示合计实付11.64元。"}
     ],
-    "notes":"今日截至19:29共记录2笔个人消费，合计120.48元。"
+    "notes":"今日截至20:28共记录3笔个人消费，合计132.12元。"
   },
   "coach_notes":[],
   "meal_prep":{}
