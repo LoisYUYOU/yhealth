@@ -1,0 +1,7 @@
+{
+  "date":"2026-09-03",
+  "intake":{"kcal_min":null,"kcal_max":null,"kcal_mid":null,"as_of":null,"notes":""},
+  "activity":{},"sleep":{},"diet":[],"exercise":[],"body":{"bowel_movements":[],"composition":{}},
+  "finance":{"currency":"CNY","expense_total":53.73,"baby_total":0,"demon_total":53.73,"public_funds_total":0,"expenses":[{"time":"19:47","name":"买菜/水","amount":53.73,"owner":"鱼油大魔王","category":"买菜/饮品","merchant":"美团平台商户","payment_method":"微信支付","notes":"用户说明为买了些菜、买了些水；具体商品金额拆分未知。"}],"notes":"根据支付截图与用户说明补录。"},
+  "coach_notes":[],"meal_prep":{}
+}
