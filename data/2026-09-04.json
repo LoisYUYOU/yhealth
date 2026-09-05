@@ -2,6 +2,6 @@
   "date":"2026-09-04",
   "intake":{"kcal_min":null,"kcal_max":null,"kcal_mid":null,"as_of":null,"notes":""},
   "activity":{},"sleep":{},"diet":[],"exercise":[],"body":{"bowel_movements":[],"composition":{}},
-  "finance":{"currency":"CNY","expense_total":30.00,"baby_total":0,"demon_total":30.00,"public_funds_total":0,"expenses":[{"time":"12:39","name":"浆板1小时","amount":30.00,"owner":"鱼油大魔王","category":"娱乐/运动","merchant":"二维码收款商户","payment_method":"微信支付","notes":"用户说明为租了1个小时的浆板。"}],"notes":"根据支付截图与用户说明补录。"},
+  "finance":{"currency":"CNY","expense_total":30.00,"baby_total":0,"demon_total":30.00,"public_funds_total":0,"expenses":[{"time":"12:39","name":"待确认消费","amount":30.00,"owner":"鱼油大魔王","category":"待确认","merchant":"二维码收款商户","payment_method":"微信支付","notes":"此前误记为浆板；用户已更正浆板实际为9月5日100元，此笔30元用途待确认。"}],"notes":"9月4日当前仅确认有一笔30元支出，具体用途待确认。"},
   "coach_notes":[],"meal_prep":{}
 }
