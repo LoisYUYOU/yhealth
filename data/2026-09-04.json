@@ -1,0 +1,7 @@
+{
+  "date":"2026-09-04",
+  "intake":{"kcal_min":null,"kcal_max":null,"kcal_mid":null,"as_of":null,"notes":""},
+  "activity":{},"sleep":{},"diet":[],"exercise":[],"body":{"bowel_movements":[],"composition":{}},
+  "finance":{"currency":"CNY","expense_total":30.00,"baby_total":0,"demon_total":30.00,"public_funds_total":0,"expenses":[{"time":"12:39","name":"浆板1小时","amount":30.00,"owner":"鱼油大魔王","category":"娱乐/运动","merchant":"二维码收款商户","payment_method":"微信支付","notes":"用户说明为租了1个小时的浆板。"}],"notes":"根据支付截图与用户说明补录。"},
+  "coach_notes":[],"meal_prep":{}
+}
