@@ -1,0 +1,7 @@
+{
+  "date":"2026-09-07",
+  "intake":{"kcal_min":null,"kcal_max":null,"kcal_mid":null,"as_of":null,"notes":""},
+  "activity":{},"sleep":{},"diet":[],"exercise":[],"body":{"bowel_movements":[],"composition":{}},
+  "finance":{"currency":"CNY","expense_total":39.98,"baby_total":0,"demon_total":39.98,"public_funds_total":0,"expenses":[{"time":"17:47","name":"买菜：茼蒿、杏鲍菇、番茄、鸡蛋","amount":39.98,"owner":"鱼油大魔王","category":"买菜","merchant":"美团平台商户","payment_method":"微信支付","notes":"订单4件：去根茼蒿菜300g、杏鲍菇约250g、番茄约500g、圣迪乐叶黄素可生食鸡蛋15枚750g；原价40.18元，银行卡优惠0.20元，实付39.98元。"}],"notes":"今日截至17:47记录1笔个人消费，合计39.98元。"},
+  "coach_notes":[],"meal_prep":{}
+}
